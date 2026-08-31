@@ -52,6 +52,22 @@ No build step required — the site fetches `data/briefings.json` at runtime.
 
 This is a **public** GitHub Pages site. All content is visible to anyone.
 
+## Enabling GitHub Pages (One-Time Setup)
+
+If the site isn't live yet, a repository admin needs to enable Pages:
+
+1. Go to **Settings** → **Pages** in this repository
+2. Under **Source**, select **GitHub Actions**
+3. The workflow will deploy automatically on the next push to `main`
+
+Alternatively, for simple static deployment:
+1. Go to **Settings** → **Pages**
+2. Under **Source**, select **Deploy from a branch**
+3. Choose branch `main` and folder `/ (root)`
+4. Save
+
+Once enabled, every commit to `main` auto-deploys.
+
 ## Technical Details
 
 - Static site: `index.html` + `styles.css` + `script.js`
