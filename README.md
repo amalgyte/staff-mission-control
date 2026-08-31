@@ -79,3 +79,4 @@ Once enabled, every commit to `main` auto-deploys.
 ## License
 
 Private repository — Amalgyte internal use.
+
