@@ -1,0 +1,99 @@
+{
+  "updated": "2026-08-31T22:00:00+01:00",
+  "briefings": [
+    {
+      "id": "theo-example-001",
+      "staff": "theo",
+      "title": "[EXAMPLE] Quantum Computing Advances in Error Correction",
+      "summary": "This is an EXAMPLE briefing for demonstration purposes. Recent breakthroughs in quantum error correction codes show promising results for fault-tolerant quantum computing. Key developments include surface code improvements and new topological approaches.",
+      "links": [
+        {
+          "label": "arXiv Paper",
+          "url": "https://arxiv.org/"
+        },
+        {
+          "label": "Nature Review",
+          "url": "https://nature.com/"
+        }
+      ],
+      "timestamp": "2026-08-31T14:30:00+01:00"
+    },
+    {
+      "id": "theo-example-002",
+      "staff": "theo",
+      "title": "[EXAMPLE] Machine Learning for Drug Discovery Pipeline",
+      "summary": "This is an EXAMPLE briefing. Overview of current ML applications in pharmaceutical research, including protein folding predictions and molecular property estimation methods.",
+      "links": [
+        {
+          "label": "DeepMind Blog",
+          "url": "https://deepmind.com/blog"
+        }
+      ],
+      "timestamp": "2026-08-30T10:15:00+01:00"
+    },
+    {
+      "id": "poppy-example-001",
+      "staff": "poppy",
+      "title": "[EXAMPLE] TikTok Trend Analysis: August 2026 Recap",
+      "summary": "This is an EXAMPLE briefing for demonstration. Monthly overview of emerging content formats and viral patterns. Key themes include authenticity pivots and micro-community engagement strategies.",
+      "links": [
+        {
+          "label": "TikTok Trends",
+          "url": "https://tiktok.com/"
+        },
+        {
+          "label": "Social Blade",
+          "url": "https://socialblade.com/"
+        }
+      ],
+      "timestamp": "2026-08-31T18:00:00+01:00"
+    },
+    {
+      "id": "poppy-example-002",
+      "staff": "poppy",
+      "title": "[EXAMPLE] YouTube Shorts Algorithm Update Notes",
+      "summary": "This is an EXAMPLE briefing. Summary of recent algorithm changes affecting short-form content discovery and recommendations on the platform.",
+      "links": [
+        {
+          "label": "YouTube Blog",
+          "url": "https://blog.youtube/"
+        }
+      ],
+      "timestamp": "2026-08-29T16:45:00+01:00"
+    },
+    {
+      "id": "clara-example-001",
+      "staff": "clara",
+      "title": "[EXAMPLE] Passive Income via Print-on-Demand: Realistic Assessment",
+      "summary": "This is an EXAMPLE briefing for demonstration purposes. Honest breakdown of print-on-demand business models, startup costs, time investment, and realistic monthly revenue expectations based on market research.",
+      "links": [
+        {
+          "label": "Printful",
+          "url": "https://printful.com/"
+        },
+        {
+          "label": "Redbubble",
+          "url": "https://redbubble.com/"
+        }
+      ],
+      "timestamp": "2026-08-31T11:00:00+01:00"
+    },
+    {
+      "id": "clara-example-002",
+      "staff": "clara",
+      "title": "[EXAMPLE] Digital Product Marketplaces Comparison",
+      "summary": "This is an EXAMPLE briefing. Comparison of platforms for selling digital products including templates, courses, and ebooks. Fee structures, audience reach, and niche suitability analyzed.",
+      "links": [
+        {
+          "label": "Gumroad",
+          "url": "https://gumroad.com/"
+        },
+        {
+          "label": "Etsy Digital",
+          "url": "https://etsy.com/"
+        }
+      ],
+      "timestamp": "2026-08-28T09:30:00+01:00"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Mission Control</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
+    
+    <header class="command-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5"/>
+                        <line x1="12" y1="2" x2="12" y2="22"/>
+                        <line x1="2" y1="8.5" x2="22" y2="8.5"/>
+                        <line x1="2" y1="15.5" x2="22" y2="15.5"/>
+                    </svg>
+                </div>
+                <div class="title-block">
+                    <h1>MISSION CONTROL</h1>
+                    <p class="subtitle">STAFF BRIEFING SYSTEM</p>
+                </div>
+            </div>
+            <div class="status-section">
+                <div class="status-indicator">
+                    <span class="pulse"></span>
+                    <span class="status-text">ONLINE</span>
+                </div>
+                <div class="timestamp" id="header-timestamp">--:--:--</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="mission-grid">
+        <section class="station-card theo" data-staff="theo">
+            <div class="card-header">
+                <div class="station-badge">THEO</div>
+                <div class="station-type">RESEARCH BRIEFINGS</div>
+            </div>
+            <div class="card-content" id="theo-content">
+                <div class="loading-state">
+                    <span class="loader"></span>
+                    <span>LOADING...</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="station-card poppy" data-staff="poppy">
+            <div class="card-header">
+                <div class="station-badge">POPPY</div>
+                <div class="station-type">TREND BRIEFINGS</div>
+            </div>
+            <div class="card-content" id="poppy-content">
+                <div class="loading-state">
+                    <span class="loader"></span>
+                    <span>LOADING...</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="station-card clara" data-staff="clara">
+            <div class="card-header">
+                <div class="station-badge">CLARA</div>
+                <div class="station-type">INCOME BRIEFINGS</div>
+            </div>
+            <div class="card-content" id="clara-content">
+                <div class="loading-state">
+                    <span class="loader"></span>
+                    <span>LOADING...</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="station-card locked nora" data-staff="nora">
+            <div class="card-header">
+                <div class="station-badge">NORA</div>
+                <div class="station-type">PRIVATE CHANNEL</div>
+            </div>
+            <div class="card-content locked-content">
+                <div class="lock-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                        <path d="M7 11V7a5 5 0 0110 0v4"/>
+                    </svg>
+                </div>
+                <div class="lock-status">IN CHAT</div>
+                <div class="lock-note">Secure channel active</div>
+            </div>
+        </section>
+
+        <section class="station-card locked rowan" data-staff="rowan">
+            <div class="card-header">
+                <div class="station-badge">ROWAN</div>
+                <div class="station-type">PRIVATE CHANNEL</div>
+            </div>
+            <div class="card-content locked-content">
+                <div class="lock-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                        <path d="M7 11V7a5 5 0 0110 0v4"/>
+                    </svg>
+                </div>
+                <div class="lock-status">IN CHAT</div>
+                <div class="lock-note">Secure channel active</div>
+            </div>
+        </section>
+
+        <section class="station-card locked julian" data-staff="julian">
+            <div class="card-header">
+                <div class="station-badge">JULIAN</div>
+                <div class="station-type">PRIVATE CHANNEL</div>
+            </div>
+            <div class="card-content locked-content">
+                <div class="lock-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                        <path d="M7 11V7a5 5 0 0110 0v4"/>
+                    </svg>
+                </div>
+                <div class="lock-status">IN CHAT</div>
+                <div class="lock-note">Secure channel active</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="command-footer">
+        <div class="footer-content">
+            <div class="update-info">
+                <span class="update-label">LAST DATA SYNC:</span>
+                <span class="update-time" id="last-update">--</span>
+            </div>
+            <div class="system-info">
+                <span>AMALGYTE SYSTEMS</span>
+                <span class="divider">|</span>
+                <span>v1.0.0</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
