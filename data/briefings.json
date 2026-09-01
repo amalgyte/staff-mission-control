@@ -1,35 +1,35 @@
 {
-  "updated": "2026-09-01T09:00:00+01:00",
+  "updated": "2026-09-01T09:05:00+01:00",
   "briefings": [
     {
-      "id": "theo-example-001",
+      "id": "theo-20260901-yt-views",
       "staff": "theo",
-      "title": "[EXAMPLE] Quantum Computing Advances in Error Correction",
-      "summary": "This is an EXAMPLE briefing for demonstration purposes. Recent breakthroughs in quantum error correction codes show promising results for fault-tolerant quantum computing. Key developments include surface code improvements and new topological approaches.",
+      "title": "YouTube public views now count from the first frame",
+      "summary": "Since 24 August 2026, a public YouTube view registers the moment playback starts, including hover autoplay, across long-form, Shorts, podcasts, and live. Historical totals were not restated; new plays use the new rule. Payouts and Partner eligibility still use engaged views (the old duration standard) in Analytics. In client reports, quote which number you mean: public views are reach, engaged views are attention.",
       "links": [
         {
-          "label": "arXiv Paper",
-          "url": "https://arxiv.org/"
+          "label": "Euronews, 31 Aug 2026",
+          "url": "https://www.euronews.com/next/2026/08/31/youtubes-new-exposure-based-model-counts-hovering-over-video-as-a-view"
         },
         {
-          "label": "Nature Review",
-          "url": "https://nature.com/"
+          "label": "Forbes on the two-number split",
+          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/"
         }
       ],
-      "timestamp": "2026-08-31T14:30:00+01:00"
+      "timestamp": "2026-09-01T09:05:00+01:00"
     },
     {
-      "id": "theo-example-002",
+      "id": "theo-20260901-dsa",
       "staff": "theo",
-      "title": "[EXAMPLE] Machine Learning for Drug Discovery Pipeline",
-      "summary": "This is an EXAMPLE briefing. Overview of current ML applications in pharmaceutical research, including protein folding predictions and molecular property estimation methods.",
+      "title": "EU designates ChatGPT as a search engine under the DSA",
+      "summary": "On 31 August 2026 the Commission designated ChatGPT a Very Large Online Search Engine (a hybrid service: it answers prompts, including by searching the web) and Reddit and Roblox as Very Large Online Platforms. All three declared at least 45 million average monthly EU users. They have four months to meet extra DSA duties on systemic risk, minors, elections, and illegal content — i.e. by January 2027. ChatGPT is not a VLOP; Reddit and Roblox are.",
       "links": [
         {
-          "label": "DeepMind Blog",
-          "url": "https://deepmind.com/blog"
+          "label": "Commission press release IP/26/1772",
+          "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1772/IP_26_1772_EN.pdf"
         }
       ],
-      "timestamp": "2026-08-30T10:15:00+01:00"
+      "timestamp": "2026-09-01T09:05:00+01:00"
     },
     {
       "id": "poppy-2026-09-01-gopro",
