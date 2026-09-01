@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T18:15:00+01:00",
+  "updated": "2026-09-01T18:33:00+01:00",
   "projects": [
     {
       "id": "pet-care",
@@ -67,7 +67,7 @@
         "phase": "early",
         "label": "Early Stage",
         "progress": 10,
-        "summary": "Live Hostinger site at amalgyte.co.uk (Angular; last-modified 5 Mar 2026). Agency GitHub repo is private."
+        "summary": "Live Hostinger site at amalgyte.co.uk (Angular; last HTML change 5 Mar 2026). Staff brand/site work not started. Delivery board not started. Agency repo private."
       },
       "nextMilestone": {
         "title": "Define brand direction and site structure",
