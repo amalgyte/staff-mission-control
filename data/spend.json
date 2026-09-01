@@ -1,0 +1,127 @@
+{
+  "updated": "2026-09-01T16:30:00+01:00",
+  "note": "All spend data is tracked here. Do NOT invent dollar/GBP costs — use 'untracked' or 0 until real numbers exist.",
+  "periods": [
+    {
+      "id": "2026-09",
+      "label": "September 2026",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30"
+    }
+  ],
+  "spend": [
+    {
+      "projectId": "pet-care",
+      "staffId": "holly",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "pet-care",
+      "staffId": "owen",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "pet-care",
+      "staffId": "sienna",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "pet-care",
+      "staffId": "callum",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "pet-care",
+      "staffId": "evelyn",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "pet-care",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "amalgyte",
+      "staffId": "edmund",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "amalgyte",
+      "staffId": "harriet",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "amalgyte",
+      "staffId": "felix",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "amalgyte",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "studio",
+      "staffId": "theo",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "studio",
+      "staffId": "poppy",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "studio",
+      "staffId": "clara",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    }
+  ],
+  "totals": {
+    "note": "Aggregated totals — populated when spend data is tracked",
+    "byProject": {
+      "pet-care": { "tokens": 0, "estimatedHours": "untracked" },
+      "amalgyte": { "tokens": 0, "estimatedHours": "untracked" },
+      "studio": { "tokens": 0, "estimatedHours": "untracked" }
+    },
+    "overall": { "tokens": 0, "estimatedHours": "untracked" }
+  }
+}

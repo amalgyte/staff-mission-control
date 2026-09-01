@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Staff Mission Control</title>
+    <title>Mission Control — Dashboard</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,9 +26,14 @@
                 </div>
                 <div class="title-block">
                     <h1>MISSION CONTROL</h1>
-                    <p class="subtitle">STAFF BRIEFING SYSTEM</p>
+                    <p class="subtitle">PROJECT DASHBOARD</p>
                 </div>
             </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link active">Dashboard</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="briefings.html" class="nav-link">Staff Briefings</a>
+            </nav>
             <div class="status-section">
                 <div class="status-indicator">
                     <span class="pulse"></span>
@@ -39,94 +44,63 @@
         </div>
     </header>
 
-    <main class="mission-grid">
-        <section class="station-card theo" data-staff="theo">
-            <div class="card-header">
-                <div class="station-badge">THEO</div>
-                <div class="station-type">RESEARCH BRIEFINGS</div>
-            </div>
-            <div class="card-content" id="theo-content">
-                <div class="loading-state">
-                    <span class="loader"></span>
-                    <span>LOADING...</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="station-card poppy" data-staff="poppy">
-            <div class="card-header">
-                <div class="station-badge">POPPY</div>
-                <div class="station-type">TREND BRIEFINGS</div>
-            </div>
-            <div class="card-content" id="poppy-content">
-                <div class="loading-state">
-                    <span class="loader"></span>
-                    <span>LOADING...</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="station-card clara" data-staff="clara">
-            <div class="card-header">
-                <div class="station-badge">CLARA</div>
-                <div class="station-type">INCOME BRIEFINGS</div>
-            </div>
-            <div class="card-content" id="clara-content">
-                <div class="loading-state">
-                    <span class="loader"></span>
-                    <span>LOADING...</span>
-                </div>
-            </div>
-        </section>
-
-        <section class="station-card locked nora" data-staff="nora">
-            <div class="card-header">
-                <div class="station-badge">NORA</div>
-                <div class="station-type">PRIVATE CHANNEL</div>
-            </div>
-            <div class="card-content locked-content">
-                <div class="lock-icon">
+    <main class="dashboard-container">
+        <section class="dashboard-summary">
+            <div class="summary-card">
+                <div class="summary-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-                        <path d="M7 11V7a5 5 0 0110 0v4"/>
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
                     </svg>
                 </div>
-                <div class="lock-status">IN CHAT</div>
-                <div class="lock-note">Secure channel active</div>
+                <div class="summary-data">
+                    <span class="summary-value" id="total-projects">--</span>
+                    <span class="summary-label">ACTIVE PROJECTS</span>
+                </div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                </div>
+                <div class="summary-data">
+                    <span class="summary-value" id="total-staff">--</span>
+                    <span class="summary-label">STAFF ASSIGNED</span>
+                </div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                </div>
+                <div class="summary-data">
+                    <span class="summary-value" id="total-tokens">--</span>
+                    <span class="summary-label">TOKENS USED</span>
+                </div>
             </div>
         </section>
 
-        <section class="station-card locked rowan" data-staff="rowan">
-            <div class="card-header">
-                <div class="station-badge">ROWAN</div>
-                <div class="station-type">PRIVATE CHANNEL</div>
-            </div>
-            <div class="card-content locked-content">
-                <div class="lock-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-                        <path d="M7 11V7a5 5 0 0110 0v4"/>
-                    </svg>
-                </div>
-                <div class="lock-status">IN CHAT</div>
-                <div class="lock-note">Secure channel active</div>
+        <section class="projects-grid" id="projects-container">
+            <div class="loading-state">
+                <span class="loader"></span>
+                <span>LOADING PROJECTS...</span>
             </div>
         </section>
 
-        <section class="station-card locked julian" data-staff="julian">
-            <div class="card-header">
-                <div class="station-badge">JULIAN</div>
-                <div class="station-type">PRIVATE CHANNEL</div>
-            </div>
-            <div class="card-content locked-content">
-                <div class="lock-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-                        <path d="M7 11V7a5 5 0 0110 0v4"/>
-                    </svg>
-                </div>
-                <div class="lock-status">IN CHAT</div>
-                <div class="lock-note">Secure channel active</div>
+        <section class="private-staff-section">
+            <h2 class="section-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="section-icon">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                    <path d="M7 11V7a5 5 0 0110 0v4"/>
+                </svg>
+                PRIVATE CHANNELS
+            </h2>
+            <div class="private-staff-grid" id="private-staff-container">
             </div>
         </section>
     </main>
@@ -140,7 +114,7 @@
             <div class="system-info">
                 <span>AMALGYTE SYSTEMS</span>
                 <span class="divider">|</span>
-                <span>v1.0.0</span>
+                <span>v2.0.0</span>
             </div>
         </div>
     </footer>

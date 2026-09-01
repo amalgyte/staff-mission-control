@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Control — Amalgyte Software Agency</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body data-project-id="amalgyte">
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
+    
+    <header class="command-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polygon points="12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5"/>
+                        <line x1="12" y1="2" x2="12" y2="22"/>
+                        <line x1="2" y1="8.5" x2="22" y2="8.5"/>
+                        <line x1="2" y1="15.5" x2="22" y2="15.5"/>
+                    </svg>
+                </div>
+                <div class="title-block">
+                    <h1>MISSION CONTROL</h1>
+                    <p class="subtitle">PROJECT DETAIL</p>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <a href="../index.html" class="nav-link">Dashboard</a>
+                <a href="../projects.html" class="nav-link active">Projects</a>
+                <a href="../briefings.html" class="nav-link">Staff Briefings</a>
+            </nav>
+            <div class="status-section">
+                <div class="status-indicator">
+                    <span class="pulse"></span>
+                    <span class="status-text">ONLINE</span>
+                </div>
+                <div class="timestamp" id="header-timestamp">--:--:--</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="project-detail-container">
+        <a href="../projects.html" class="back-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <polyline points="15 18 9 12 15 6"/>
+            </svg>
+            Back to Projects
+        </a>
+
+        <div class="project-detail-content" id="project-detail">
+            <div class="loading-state">
+                <span class="loader"></span>
+                <span>LOADING PROJECT...</span>
+            </div>
+        </div>
+    </main>
+
+    <footer class="command-footer">
+        <div class="footer-content">
+            <div class="update-info">
+                <span class="update-label">LAST DATA SYNC:</span>
+                <span class="update-time" id="last-update">--</span>
+            </div>
+            <div class="system-info">
+                <span>AMALGYTE SYSTEMS</span>
+                <span class="divider">|</span>
+                <span>v2.0.0</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

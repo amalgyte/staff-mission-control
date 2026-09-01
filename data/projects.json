@@ -1,0 +1,135 @@
+{
+  "updated": "2026-09-01T16:30:00+01:00",
+  "projects": [
+    {
+      "id": "pet-care",
+      "name": "Pet Care Portal",
+      "tagline": "Pet services marketplace",
+      "domain": "petcareportal.co.uk",
+      "domainProvider": "IONOS",
+      "domainTerm": "5 years",
+      "repo": "amalgyte/Pet-Care-Portal",
+      "repoUrl": "https://github.com/amalgyte/Pet-Care-Portal",
+      "stack": ["React", "Firebase"],
+      "demoUrl": "https://amalgyte.github.io/Pet-Care-Portal/",
+      "productionUrl": null,
+      "hosting": {
+        "provider": "Firebase Hosting",
+        "status": "configured",
+        "note": "Domain not pointed yet"
+      },
+      "status": {
+        "phase": "demo",
+        "label": "Demo Live",
+        "progress": 35,
+        "summary": "Demo deployed on GitHub Pages. Domain purchased. Production Firebase Hosting configured but domain DNS not pointed."
+      },
+      "nextMilestone": {
+        "title": "Point Firebase Hosting at petcareportal.co.uk",
+        "targetDate": null
+      },
+      "roadmap": [
+        { "phase": "Setup", "status": "complete" },
+        { "phase": "Demo Build", "status": "complete" },
+        { "phase": "Domain Purchase", "status": "complete" },
+        { "phase": "Firebase Hosting", "status": "in-progress" },
+        { "phase": "Production Launch", "status": "pending" },
+        { "phase": "Marketing", "status": "pending" }
+      ],
+      "staff": [
+        { "id": "holly", "name": "Holly", "role": "Product" },
+        { "id": "owen", "name": "Owen", "role": "CRM" },
+        { "id": "sienna", "name": "Sienna", "role": "Marketing" },
+        { "id": "callum", "name": "Callum", "role": "Sales" },
+        { "id": "evelyn", "name": "Evelyn", "role": "Advisor" },
+        { "id": "developer", "name": "Developer", "role": "Code" }
+      ],
+      "color": "#00d4ff"
+    },
+    {
+      "id": "amalgyte",
+      "name": "Amalgyte Software Agency",
+      "tagline": "Agency site & delivery board",
+      "domain": "amalgyte.co.uk",
+      "domainProvider": null,
+      "domainTerm": null,
+      "repo": null,
+      "repoUrl": null,
+      "stack": [],
+      "demoUrl": null,
+      "productionUrl": null,
+      "hosting": {
+        "provider": null,
+        "status": "untracked",
+        "note": "Agency site early stage"
+      },
+      "status": {
+        "phase": "early",
+        "label": "Early Stage",
+        "progress": 10,
+        "summary": "Agency site and delivery board in early planning. Brand direction being established."
+      },
+      "nextMilestone": {
+        "title": "Define brand direction and site structure",
+        "targetDate": null
+      },
+      "roadmap": [
+        { "phase": "Brand Direction", "status": "in-progress" },
+        { "phase": "Site Design", "status": "pending" },
+        { "phase": "Delivery Board", "status": "pending" },
+        { "phase": "Launch", "status": "pending" }
+      ],
+      "staff": [
+        { "id": "edmund", "name": "Edmund", "role": "Brand & Site" },
+        { "id": "harriet", "name": "Harriet", "role": "Delivery" },
+        { "id": "felix", "name": "Felix", "role": "Marketing" },
+        { "id": "developer", "name": "Developer", "role": "Code" }
+      ],
+      "color": "#a855f7"
+    },
+    {
+      "id": "studio",
+      "name": "Studio Research",
+      "tagline": "Research, shorts trends, second-income ideas",
+      "domain": null,
+      "domainProvider": null,
+      "domainTerm": null,
+      "repo": null,
+      "repoUrl": null,
+      "stack": [],
+      "demoUrl": null,
+      "productionUrl": null,
+      "hosting": {
+        "provider": null,
+        "status": "n/a",
+        "note": "Research project — no hosting"
+      },
+      "status": {
+        "phase": "ongoing",
+        "label": "Active Research",
+        "progress": null,
+        "summary": "Continuous research into YouTube/TikTok trends, shorts production, and realistic second-income opportunities."
+      },
+      "nextMilestone": {
+        "title": "Continue trend monitoring and briefings",
+        "targetDate": null
+      },
+      "roadmap": [
+        { "phase": "Research Setup", "status": "complete" },
+        { "phase": "Trend Monitoring", "status": "ongoing" },
+        { "phase": "Briefing Production", "status": "ongoing" }
+      ],
+      "staff": [
+        { "id": "theo", "name": "Theo", "role": "Research" },
+        { "id": "poppy", "name": "Poppy", "role": "Trends" },
+        { "id": "clara", "name": "Clara", "role": "Income Ideas" }
+      ],
+      "color": "#00ff88"
+    }
+  ],
+  "privateStaff": [
+    { "id": "nora", "name": "Nora", "status": "private — in chat" },
+    { "id": "rowan", "name": "Rowan", "status": "private — in chat" },
+    { "id": "julian", "name": "Julian", "status": "private — in chat" }
+  ]
+}
