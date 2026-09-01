@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T16:30:00+01:00",
+  "updated": "2026-09-01T18:15:00+01:00",
   "projects": [
     {
       "id": "pet-care",
@@ -22,27 +22,27 @@
         "phase": "demo",
         "label": "Demo Live",
         "progress": 35,
-        "summary": "Demo deployed on GitHub Pages. Domain purchased. Production Firebase Hosting configured but domain DNS not pointed."
+        "summary": "Demo deployed on GitHub Pages. Domain purchased. Production Firebase Hosting configured but domain DNS not pointed. First CRM cycle: live funnel empty (0 contacts/bookings/follow-ups/leads). Developer started admin-only beta counts (PR not landed). Demo last ship 31 Aug."
       },
       "nextMilestone": {
         "title": "Point Firebase Hosting at petcareportal.co.uk",
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Setup", "status": "complete" },
-        { "phase": "Demo Build", "status": "complete" },
-        { "phase": "Domain Purchase", "status": "complete" },
-        { "phase": "Firebase Hosting", "status": "in-progress" },
-        { "phase": "Production Launch", "status": "pending" },
-        { "phase": "Marketing", "status": "pending" }
+        {"phase": "Setup", "status": "complete"},
+        {"phase": "Demo Build", "status": "complete"},
+        {"phase": "Domain Purchase", "status": "complete"},
+        {"phase": "Firebase Hosting", "status": "in-progress"},
+        {"phase": "Production Launch", "status": "pending"},
+        {"phase": "Marketing", "status": "pending"}
       ],
       "staff": [
-        { "id": "holly", "name": "Holly", "role": "Product" },
-        { "id": "owen", "name": "Owen", "role": "CRM" },
-        { "id": "sienna", "name": "Sienna", "role": "Marketing" },
-        { "id": "callum", "name": "Callum", "role": "Sales" },
-        { "id": "evelyn", "name": "Evelyn", "role": "Advisor" },
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {"id": "holly", "name": "Holly", "role": "Product"},
+        {"id": "owen", "name": "Owen", "role": "CRM"},
+        {"id": "sienna", "name": "Sienna", "role": "Marketing"},
+        {"id": "callum", "name": "Callum", "role": "Sales"},
+        {"id": "evelyn", "name": "Evelyn", "role": "Advisor"},
+        {"id": "developer", "name": "Developer", "role": "Code"}
       ],
       "color": "#00d4ff"
     },
@@ -53,37 +53,37 @@
       "domain": "amalgyte.co.uk",
       "domainProvider": null,
       "domainTerm": null,
-      "repo": null,
+      "repo": "Amalgyte-Solutions/AmalgyteSoftwareAgency",
       "repoUrl": null,
       "stack": [],
       "demoUrl": null,
-      "productionUrl": null,
+      "productionUrl": "https://amalgyte.co.uk",
       "hosting": {
-        "provider": null,
-        "status": "untracked",
-        "note": "Agency site early stage"
+        "provider": "Hostinger",
+        "status": "live",
+        "note": "Live Hostinger (hpanel/hcdn). HTML Last-Modified 5 Mar 2026. Agency GitHub repo is private; unauth 404."
       },
       "status": {
         "phase": "early",
         "label": "Early Stage",
         "progress": 10,
-        "summary": "Agency site and delivery board in early planning. Brand direction being established."
+        "summary": "Live Hostinger site at amalgyte.co.uk (Angular; last-modified 5 Mar 2026). Agency GitHub repo is private."
       },
       "nextMilestone": {
         "title": "Define brand direction and site structure",
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Brand Direction", "status": "in-progress" },
-        { "phase": "Site Design", "status": "pending" },
-        { "phase": "Delivery Board", "status": "pending" },
-        { "phase": "Launch", "status": "pending" }
+        {"phase": "Brand Direction", "status": "in-progress"},
+        {"phase": "Site Design", "status": "pending"},
+        {"phase": "Delivery Board", "status": "pending"},
+        {"phase": "Launch", "status": "pending"}
       ],
       "staff": [
-        { "id": "edmund", "name": "Edmund", "role": "Brand & Site" },
-        { "id": "harriet", "name": "Harriet", "role": "Delivery" },
-        { "id": "felix", "name": "Felix", "role": "Marketing" },
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {"id": "edmund", "name": "Edmund", "role": "Brand & Site"},
+        {"id": "harriet", "name": "Harriet", "role": "Delivery"},
+        {"id": "felix", "name": "Felix", "role": "Marketing"},
+        {"id": "developer", "name": "Developer", "role": "Code"}
       ],
       "color": "#a855f7"
     },
@@ -115,21 +115,21 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Research Setup", "status": "complete" },
-        { "phase": "Trend Monitoring", "status": "ongoing" },
-        { "phase": "Briefing Production", "status": "ongoing" }
+        {"phase": "Research Setup", "status": "complete"},
+        {"phase": "Trend Monitoring", "status": "ongoing"},
+        {"phase": "Briefing Production", "status": "ongoing"}
       ],
       "staff": [
-        { "id": "theo", "name": "Theo", "role": "Research" },
-        { "id": "poppy", "name": "Poppy", "role": "Trends" },
-        { "id": "clara", "name": "Clara", "role": "Income Ideas" }
+        {"id": "theo", "name": "Theo", "role": "Research"},
+        {"id": "poppy", "name": "Poppy", "role": "Trends"},
+        {"id": "clara", "name": "Clara", "role": "Income Ideas"}
       ],
       "color": "#00ff88"
     }
   ],
   "privateStaff": [
-    { "id": "nora", "name": "Nora", "status": "private — in chat" },
-    { "id": "rowan", "name": "Rowan", "status": "private — in chat" },
-    { "id": "julian", "name": "Julian", "status": "private — in chat" }
+    {"id": "nora", "name": "Nora", "status": "private — in chat"},
+    {"id": "rowan", "name": "Rowan", "status": "private — in chat"},
+    {"id": "julian", "name": "Julian", "status": "private — in chat"}
   ]
 }

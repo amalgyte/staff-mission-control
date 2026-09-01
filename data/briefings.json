@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T09:10:00+01:00",
+  "updated": "2026-09-01T18:05:00+01:00",
   "briefings": [
     {
       "id": "theo-20260901-yt-views",
@@ -7,14 +7,8 @@
       "title": "YouTube public views now count from the first frame",
       "summary": "Since 24 August 2026, a public YouTube view registers the moment playback starts, including hover autoplay, across long-form, Shorts, podcasts, and live. Historical totals were not restated; new plays use the new rule. Payouts and Partner eligibility still use engaged views (the old duration standard) in Analytics. In client reports, quote which number you mean: public views are reach, engaged views are attention.",
       "links": [
-        {
-          "label": "Euronews, 31 Aug 2026",
-          "url": "https://www.euronews.com/next/2026/08/31/youtubes-new-exposure-based-model-counts-hovering-over-video-as-a-view"
-        },
-        {
-          "label": "Forbes on the two-number split",
-          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/"
-        }
+        {"label": "Euronews, 31 Aug 2026", "url": "https://www.euronews.com/next/2026/08/31/youtubes-new-exposure-based-model-counts-hovering-over-video-as-a-view"},
+        {"label": "Forbes on the two-number split", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/"}
       ],
       "timestamp": "2026-09-01T09:05:00+01:00"
     },
@@ -24,10 +18,7 @@
       "title": "EU designates ChatGPT as a search engine under the DSA",
       "summary": "On 31 August 2026 the Commission designated ChatGPT a Very Large Online Search Engine (a hybrid service: it answers prompts, including by searching the web) and Reddit and Roblox as Very Large Online Platforms. All three declared at least 45 million average monthly EU users. They have four months to meet extra DSA duties on systemic risk, minors, elections, and illegal content — i.e. by January 2027. ChatGPT is not a VLOP; Reddit and Roblox are.",
       "links": [
-        {
-          "label": "Commission press release IP/26/1772",
-          "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1772/IP_26_1772_EN.pdf"
-        }
+        {"label": "Commission press release IP/26/1772", "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1772/IP_26_1772_EN.pdf"}
       ],
       "timestamp": "2026-09-01T09:05:00+01:00"
     },
@@ -37,10 +28,7 @@
       "title": "Markiplier takes ~8.5% of GoPro as Mission 1 Pro ships 2 Sep",
       "summary": "Mark Fischbach (Markiplier) took a large GoPro stake; Mission 1 Pro ILS hits retail 2 Sep. His review used an affiliate code without flagging the investment. Filmable short: would you disclose before or after the review? Accessible filmmaking vs an undisclosed skin in the game.",
       "links": [
-        {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/tech/986847/markiplier-gopro-investor"
-        }
+        {"label": "The Verge", "url": "https://www.theverge.com/tech/986847/markiplier-gopro-investor"}
       ],
       "timestamp": "2026-09-01T09:00:00+01:00"
     },
@@ -50,10 +38,7 @@
       "title": "Clemmy’s Indie Fall Showcase is today (4pm London) with a Steam sale",
       "summary": "100+ indie games on one YouTube stream, 1 Sep 16:00 London, with a week-long Steam curator sale (BIGFallShowcase2026). Watch-and-react: pick two titles, one-sentence wishlist-bait vs playable-demo take. Best film of the day for a game-shipper.",
       "links": [
-        {
-          "label": "Games Press — Clemmy Fall Showcase",
-          "url": "https://www.gamespress.com/"
-        }
+        {"label": "Games Press — Clemmy Fall Showcase", "url": "https://www.gamespress.com/"}
       ],
       "timestamp": "2026-09-01T09:00:00+01:00"
     },
@@ -63,10 +48,7 @@
       "title": "Instagram will cut Reels reach for unlabeled AI-person accounts",
       "summary": "Announced 31 Aug: ‘AI creator’ becomes ‘AI-generated profile’. Unlabeled synthetic-person accounts lose Reels/Explore recommendations; real people using AI edits are fine. Client angle: if a brand’s influencer is synthetic, disclosure is now distribution, not just ethics.",
       "links": [
-        {
-          "label": "The Verge",
-          "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop"
-        }
+        {"label": "The Verge", "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop"}
       ],
       "timestamp": "2026-09-01T09:00:00+01:00"
     },
@@ -76,10 +58,7 @@
       "title": "Chrome goes biweekly from 8 Sep (Chrome 153)",
       "summary": "Stable Chrome flips from a 4-week to a 2-week cycle starting Chrome 153 on 8 September. Agency/QA implication: shorter window to catch layout and API breaks. Tip: put clients on Early Stable or test Beta before the Tuesday drop.",
       "links": [
-        {
-          "label": "Chrome for Developers",
-          "url": "https://developer.chrome.com/blog/chrome-two-week-release"
-        }
+        {"label": "Chrome for Developers", "url": "https://developer.chrome.com/blog/chrome-two-week-release"}
       ],
       "timestamp": "2026-09-01T09:00:00+01:00"
     },
@@ -89,14 +68,8 @@
       "title": "Sell a YouTube two-number reporting pass, not a course",
       "summary": "Public YouTube views now count from the first frame; payouts and Partner eligibility still use engaged views. Don't build a course. Offer existing Amalgyte video or site clients a half-day, one-page re-baseline: which number goes in the dashboard, what changed on 24 Aug, what did not. Honest: this is billable hours, not passive income. If nobody buys, you still have a template for the next analytics scare.",
       "links": [
-        {
-          "label": "Euronews, 31 Aug 2026",
-          "url": "https://www.euronews.com/next/2026/08/31/youtubes-new-exposure-based-model-counts-hovering-over-video-as-a-view"
-        },
-        {
-          "label": "Forbes on the two-number split",
-          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/"
-        }
+        {"label": "Euronews, 31 Aug 2026", "url": "https://www.euronews.com/next/2026/08/31/youtubes-new-exposure-based-model-counts-hovering-over-video-as-a-view"},
+        {"label": "Forbes on the two-number split", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/"}
       ],
       "timestamp": "2026-09-01T09:10:00+01:00"
     },
@@ -106,16 +79,76 @@
       "title": "Itch a playable build before you pay Steam Direct",
       "summary": "Don't start a new product. Put one build that already runs (HexWars, TowersOnTwitch, or whatever actually boots) on itch.io this week. itch lets you set the platform share from 0–100% (default 10%) and still takes processor fees (~2.9% + 30¢). Steam Direct is $100 per app, recoupable only after $1,000 adjusted gross, with a 30-day wait — skip that until a page has real players. Honest floor: with no existing audience this is a store page, not income. The test is a live page by Friday, not a passive stream.",
       "links": [
-        {
-          "label": "itch.io payments & open revenue share",
-          "url": "https://itch.io/docs/creators/payments"
-        },
-        {
-          "label": "Steam Direct fee",
-          "url": "https://partner.steamgames.com/doc/gettingstarted/appfee"
-        }
+        {"label": "itch.io payments & open revenue share", "url": "https://itch.io/docs/creators/payments"},
+        {"label": "Steam Direct fee", "url": "https://partner.steamgames.com/doc/gettingstarted/appfee"}
       ],
       "timestamp": "2026-09-01T09:10:00+01:00"
+    },
+    {
+      "id": "theo-20260901-ypp",
+      "staff": "theo",
+      "title": "YouTube doubles YPP entry from 1 Feb 2027; accept terms by 31 Jan",
+      "summary": "Morning covered the first-frame public-view change, not the Partner Program rewrite. From 1 February 2027, new applicants still need 1,000 subscribers plus 8,000 qualified watch hours in 365 days, or 20 million qualified Shorts views in 90 days (today’s bars are 4,000 hours / 10 million Shorts). Existing YPP members keep their place under the new entry rule. Separately, Shorts ads and subscription revenue will need 10 million qualified Shorts views in the last 90 days; below that you stay in YPP and still earn on long-form. Fan funding / shopping stay at 500 subs plus 3,000 hours or 3 million Shorts. Everyone already monetising must review and accept the updated Studio terms (Watch Page, Shorts, and if used Commerce) by 31 January 2027 or those earnings pause on 1 February. Status in YPP is not lost; accept later to restore.",
+      "links": [
+        {"label": "YouTube Blog, 10 Aug 2026", "url": "https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/"},
+        {"label": "YouTube Help: YPP 2027 changes", "url": "https://support.google.com/youtube/answer/12843009"}
+      ],
+      "timestamp": "2026-09-01T18:05:00+01:00"
+    },
+    {
+      "id": "theo-20260901-meta-teens",
+      "staff": "theo",
+      "title": "Meta’s US teen settlement: 2-hour IG/FB cap, night block, rivals asked to follow",
+      "summary": "On 26 August 2026 Meta settled US state claims for up to $18 billion over a decade (AP/CBC). For under-18 Facebook and Instagram accounts in the US: a default two-hour daily cap across both apps (parent can override), most use blocked midnight–6am local, and most push notifications muted 8am–3pm school hours. CBC also reports scroll pauses at 15/60/90 minutes, a non-algorithmic feed option, hidden like counts, and a block on extreme makeup filters. This is a US judgment, not a UK/EU rule; do not tell UK clients teens are already capped. Agency fact: US teen IG/FB reach and session length will shrink as the product changes roll out. Meta is calling on YouTube, TikTok and Snap to adopt similar youth protections.",
+      "links": [
+        {"label": "AP News, 26 Aug 2026", "url": "https://apnews.com/article/meta-trial-instagram-settlement-97d342f2a33d835eda2356c5e1af9e37"},
+        {"label": "CBC explainer (product changes)", "url": "https://www.cbc.ca/news/world/meta-settlement-explainer-9.7322782"}
+      ],
+      "timestamp": "2026-09-01T18:05:00+01:00"
+    },
+    {
+      "id": "poppy-20260901-ternus",
+      "staff": "poppy",
+      "title": "Ternus is Apple CEO today; first event is 9 Sep 18:00 London",
+      "summary": "1 September 2026 is John Ternus’s first day as Apple CEO (The Verge, 10:04 UTC, after the 09:05 board). Tim Cook is executive chairman. Official next beat: ‘Surprise and shine’ on Wednesday 9 September at 10:00 PT / 18:00 London, livestreamed on apple.com and the Apple TV app. Apple has not named products on the invite. Filmable short: day-one CEO, eight days to the first keynote — watch live, don’t spoof a foldable until Apple shows one.",
+      "links": [
+        {"label": "The Verge, 1 Sep 2026", "url": "https://www.theverge.com/tech/987150/apple-ceo-john-ternus"},
+        {"label": "Apple Events — Surprise and shine", "url": "https://www.apple.com/apple-events/"}
+      ],
+      "timestamp": "2026-09-01T18:05:00+01:00"
+    },
+    {
+      "id": "poppy-20260901-firefox-ios",
+      "staff": "poppy",
+      "title": "Firefox on iOS ships a built-in ad blocker today (off by default)",
+      "summary": "Mozilla launched Ad Blocker for Firefox on iOS on 1 September 2026. It uses Apple’s WebKit Content Blocker API plus EasyList; no separate extension. Off by default: Settings → Browsing → Ad Blocker. It blocks many third-party ads and ad-related trackers before they load. It will not block first-party ads served by the site you’re on, ads in search results, or sponsored shortcuts/content on Firefox’s own new-tab page. Filmable 30s: enable it, load a cluttered article, say what still shows.",
+      "links": [
+        {"label": "Mozilla Blog, 1 Sep 2026", "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/"},
+        {"label": "The Verge, 1 Sep 2026", "url": "https://www.theverge.com/news/987247/mozilla-firefox-ad-blocker-ios-launch"}
+      ],
+      "timestamp": "2026-09-01T18:05:00+01:00"
+    },
+    {
+      "id": "poppy-20260901-dlss5",
+      "staff": "poppy",
+      "title": "DLSS 5 goes live Friday in NBA 2K27 — RTX 50-series only",
+      "summary": "NVIDIA says DLSS 5 (3D-Guided Neural Rendering) ships 3 September 2026 at 21:00 PT (4 Sep 05:00 London) in NBA 2K27, on GeForce RTX 50-series desktops/laptops and GeForce NOW, via a same-day Game Ready driver. In-game: Video Settings → DLSS Neural Rendering On; F9 toggles it during play. Official line: the engine frame stays the foundation; the model adds lighting/materials (skin subsurface scattering, hair, contact shadows) with artist controls. The Verge notes March demos were widely criticised for changing how characters looked, and at launch this is one title, not a general PC-gaming toggle. Filmable: F9 A/B — does it still look like 2K, or like a filter?",
+      "links": [
+        {"label": "NVIDIA GeForce, DLSS 5 / NBA 2K27", "url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/"},
+        {"label": "The Verge, 1 Sep 2026", "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27"}
+      ],
+      "timestamp": "2026-09-01T18:05:00+01:00"
+    },
+    {
+      "id": "clara-20260901-ypp-apply",
+      "staff": "clara",
+      "title": "Apply to YPP this month if you’re near 4,000 hours — don’t wait for Feb 2027",
+      "summary": "Do not build a course. Open YouTube Studio on existing Amalgyte or client channels. If a channel is not in YPP and is near 1,000 subscribers and 4,000 qualified watch hours (or 10 million Shorts views), apply before 1 February 2027, when those bars double to 8,000 hours / 20 million Shorts. If already in YPP, the 15-minute job is: Earn tab → accept the Watch Page, Shorts, and (if used) Commerce modules by 31 January 2027, or those earnings pause. Honest floor: if nobody is close to 4,000 hours this is a checklist, not income. Same half-day as the morning two-number reporting pass if a client already booked it.",
+      "links": [
+        {"label": "YouTube Blog, 10 Aug 2026", "url": "https://blog.youtube/news-and-events/youtube-partner-program-updates-2027-new-opportunities-earn/"},
+        {"label": "YouTube Help: accept terms by 31 Jan 2027", "url": "https://support.google.com/youtube/answer/12843009"}
+      ],
+      "timestamp": "2026-09-01T18:05:00+01:00"
     }
   ]
 }
