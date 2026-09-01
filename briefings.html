@@ -8,6 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        .staff-mini-card {
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+            font: inherit;
+            color: inherit;
+            transition: border-color 0.2s ease, background 0.2s ease;
+        }
+        .staff-mini-card:hover {
+            border-color: var(--border-accent);
+            background: var(--bg-card-hover);
+        }
+        .staff-mini-card.active {
+            border-color: var(--accent-cyan);
+            background: rgba(0, 212, 255, 0.08);
+        }
+        .staff-mini-card.theo.active { border-color: var(--theo-color); }
+        .staff-mini-card.poppy.active { border-color: var(--poppy-color); }
+        .staff-mini-card.clara.active { border-color: var(--clara-color); }
+    </style>
 </head>
 <body>
     <div class="scanlines"></div>
@@ -63,41 +84,41 @@
         </section>
         <aside class="briefings-sidebar">
             <div class="staff-cards">
-                <div class="staff-mini-card theo">
+                <button type="button" class="staff-mini-card theo" data-staff="theo">
                     <div class="staff-badge">THEO</div>
                     <div class="staff-role">Research Briefings</div>
                     <div class="staff-count" id="theo-count">--</div>
-                </div>
-                <div class="staff-mini-card poppy">
+                </button>
+                <button type="button" class="staff-mini-card poppy" data-staff="poppy">
                     <div class="staff-badge">POPPY</div>
                     <div class="staff-role">Trend Briefings</div>
                     <div class="staff-count" id="poppy-count">--</div>
-                </div>
-                <div class="staff-mini-card clara">
+                </button>
+                <button type="button" class="staff-mini-card clara" data-staff="clara">
                     <div class="staff-badge">CLARA</div>
                     <div class="staff-role">Income Briefings</div>
                     <div class="staff-count" id="clara-count">--</div>
-                </div>
-                <div class="staff-mini-card nora">
+                </button>
+                <button type="button" class="staff-mini-card nora" data-staff="nora">
                     <div class="staff-badge">NORA</div>
                     <div class="staff-role">Journal</div>
                     <div class="staff-count" id="nora-count">--</div>
-                </div>
-                <div class="staff-mini-card rowan">
+                </button>
+                <button type="button" class="staff-mini-card rowan" data-staff="rowan">
                     <div class="staff-badge">ROWAN</div>
                     <div class="staff-role">Health</div>
                     <div class="staff-count" id="rowan-count">--</div>
-                </div>
-                <div class="staff-mini-card julian">
+                </button>
+                <button type="button" class="staff-mini-card julian" data-staff="julian">
                     <div class="staff-badge">JULIAN</div>
                     <div class="staff-role">Psychologist</div>
                     <div class="staff-count" id="julian-count">--</div>
-                </div>
-                <div class="staff-mini-card maeve">
+                </button>
+                <button type="button" class="staff-mini-card maeve" data-staff="maeve">
                     <div class="staff-badge">MAEVE</div>
                     <div class="staff-role">PA / advisor</div>
                     <div class="staff-count" id="maeve-count">--</div>
-                </div>
+                </button>
             </div>
         </aside>
     </main>

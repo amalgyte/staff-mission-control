@@ -322,17 +322,40 @@
         }
     }
 
-    function setupBriefingsFilter() {
-        const filterBtns = document.querySelectorAll('.filter-btn');
+    function applyBriefingsFilter(staff) {
         const briefingItems = document.querySelectorAll('.briefing-feed-item');
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                const staff = btn.dataset.staff;
-                briefingItems.forEach(item => {
-                    item.style.display = (staff === 'all' || item.dataset.staff === staff) ? '' : 'none';
-                });
+        const container = document.getElementById('briefings-feed-container');
+        let visible = 0;
+        briefingItems.forEach(item => {
+            const show = staff === 'all' || item.dataset.staff === staff;
+            item.style.display = show ? '' : 'none';
+            if (show) visible++;
+        });
+        let emptyNote = document.getElementById('briefings-filter-empty');
+        if (!emptyNote && container) {
+            emptyNote = document.createElement('div');
+            emptyNote.id = 'briefings-filter-empty';
+            emptyNote.className = 'empty-state';
+            emptyNote.innerHTML = '<span>NO BRIEFINGS YET</span>';
+            container.appendChild(emptyNote);
+        }
+        if (emptyNote) {
+            emptyNote.style.display = visible === 0 ? '' : 'none';
+        }
+        document.querySelectorAll('.filter-btn').forEach(b => {
+            b.classList.toggle('active', b.dataset.staff === staff);
+        });
+        document.querySelectorAll('.staff-mini-card').forEach(c => {
+            c.classList.toggle('active', c.dataset.staff === staff);
+        });
+    }
+
+    function setupBriefingsFilter() {
+        document.querySelectorAll('.filter-btn, .staff-mini-card').forEach(el => {
+            el.addEventListener('click', () => {
+                const staff = el.dataset.staff;
+                if (!staff) return;
+                applyBriefingsFilter(staff);
             });
         });
     }
