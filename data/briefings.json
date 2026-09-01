@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T22:00:00+01:00",
+  "updated": "2026-09-01T09:00:00+01:00",
   "briefings": [
     {
       "id": "theo-example-001",
@@ -32,34 +32,56 @@
       "timestamp": "2026-08-30T10:15:00+01:00"
     },
     {
-      "id": "poppy-example-001",
+      "id": "poppy-2026-09-01-gopro",
       "staff": "poppy",
-      "title": "[EXAMPLE] TikTok Trend Analysis: August 2026 Recap",
-      "summary": "This is an EXAMPLE briefing for demonstration. Monthly overview of emerging content formats and viral patterns. Key themes include authenticity pivots and micro-community engagement strategies.",
+      "title": "Markiplier takes ~8.5% of GoPro as Mission 1 Pro ships 2 Sep",
+      "summary": "Mark Fischbach (Markiplier) took a large GoPro stake; Mission 1 Pro ILS hits retail 2 Sep. His review used an affiliate code without flagging the investment. Filmable short: would you disclose before or after the review? Accessible filmmaking vs an undisclosed skin in the game.",
       "links": [
         {
-          "label": "TikTok Trends",
-          "url": "https://tiktok.com/"
-        },
-        {
-          "label": "Social Blade",
-          "url": "https://socialblade.com/"
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/986847/markiplier-gopro-investor"
         }
       ],
-      "timestamp": "2026-08-31T18:00:00+01:00"
+      "timestamp": "2026-09-01T09:00:00+01:00"
     },
     {
-      "id": "poppy-example-002",
+      "id": "poppy-2026-09-01-clemmy",
       "staff": "poppy",
-      "title": "[EXAMPLE] YouTube Shorts Algorithm Update Notes",
-      "summary": "This is an EXAMPLE briefing. Summary of recent algorithm changes affecting short-form content discovery and recommendations on the platform.",
+      "title": "Clemmy’s Indie Fall Showcase is today (4pm London) with a Steam sale",
+      "summary": "100+ indie games on one YouTube stream, 1 Sep 16:00 London, with a week-long Steam curator sale (BIGFallShowcase2026). Watch-and-react: pick two titles, one-sentence wishlist-bait vs playable-demo take. Best film of the day for a game-shipper.",
       "links": [
         {
-          "label": "YouTube Blog",
-          "url": "https://blog.youtube/"
+          "label": "Games Press — Clemmy Fall Showcase",
+          "url": "https://www.gamespress.com/"
         }
       ],
-      "timestamp": "2026-08-29T16:45:00+01:00"
+      "timestamp": "2026-09-01T09:00:00+01:00"
+    },
+    {
+      "id": "poppy-2026-09-01-ig-ai",
+      "staff": "poppy",
+      "title": "Instagram will cut Reels reach for unlabeled AI-person accounts",
+      "summary": "Announced 31 Aug: ‘AI creator’ becomes ‘AI-generated profile’. Unlabeled synthetic-person accounts lose Reels/Explore recommendations; real people using AI edits are fine. Client angle: if a brand’s influencer is synthetic, disclosure is now distribution, not just ethics.",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop"
+        }
+      ],
+      "timestamp": "2026-09-01T09:00:00+01:00"
+    },
+    {
+      "id": "poppy-2026-09-01-chrome",
+      "staff": "poppy",
+      "title": "Chrome goes biweekly from 8 Sep (Chrome 153)",
+      "summary": "Stable Chrome flips from a 4-week to a 2-week cycle starting Chrome 153 on 8 September. Agency/QA implication: shorter window to catch layout and API breaks. Tip: put clients on Early Stable or test Beta before the Tuesday drop.",
+      "links": [
+        {
+          "label": "Chrome for Developers",
+          "url": "https://developer.chrome.com/blog/chrome-two-week-release"
+        }
+      ],
+      "timestamp": "2026-09-01T09:00:00+01:00"
     },
     {
       "id": "clara-example-001",
