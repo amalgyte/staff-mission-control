@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T09:05:00+01:00",
+  "updated": "2026-09-01T09:10:00+01:00",
   "briefings": [
     {
       "id": "theo-20260901-yt-views",
@@ -84,38 +84,38 @@
       "timestamp": "2026-09-01T09:00:00+01:00"
     },
     {
-      "id": "clara-example-001",
+      "id": "clara-2026-09-01-yt-report",
       "staff": "clara",
-      "title": "[EXAMPLE] Passive Income via Print-on-Demand: Realistic Assessment",
-      "summary": "This is an EXAMPLE briefing for demonstration purposes. Honest breakdown of print-on-demand business models, startup costs, time investment, and realistic monthly revenue expectations based on market research.",
+      "title": "Sell a YouTube two-number reporting pass, not a course",
+      "summary": "Public YouTube views now count from the first frame; payouts and Partner eligibility still use engaged views. Don't build a course. Offer existing Amalgyte video or site clients a half-day, one-page re-baseline: which number goes in the dashboard, what changed on 24 Aug, what did not. Honest: this is billable hours, not passive income. If nobody buys, you still have a template for the next analytics scare.",
       "links": [
         {
-          "label": "Printful",
-          "url": "https://printful.com/"
+          "label": "Euronews, 31 Aug 2026",
+          "url": "https://www.euronews.com/next/2026/08/31/youtubes-new-exposure-based-model-counts-hovering-over-video-as-a-view"
         },
         {
-          "label": "Redbubble",
-          "url": "https://redbubble.com/"
+          "label": "Forbes on the two-number split",
+          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/08/17/youtube-changes-how-it-counts-views-handing-marketers-two-numbers-instead-of-one/"
         }
       ],
-      "timestamp": "2026-08-31T11:00:00+01:00"
+      "timestamp": "2026-09-01T09:10:00+01:00"
     },
     {
-      "id": "clara-example-002",
+      "id": "clara-2026-09-01-itch",
       "staff": "clara",
-      "title": "[EXAMPLE] Digital Product Marketplaces Comparison",
-      "summary": "This is an EXAMPLE briefing. Comparison of platforms for selling digital products including templates, courses, and ebooks. Fee structures, audience reach, and niche suitability analyzed.",
+      "title": "Itch a playable build before you pay Steam Direct",
+      "summary": "Don't start a new product. Put one build that already runs (HexWars, TowersOnTwitch, or whatever actually boots) on itch.io this week. itch lets you set the platform share from 0–100% (default 10%) and still takes processor fees (~2.9% + 30¢). Steam Direct is $100 per app, recoupable only after $1,000 adjusted gross, with a 30-day wait — skip that until a page has real players. Honest floor: with no existing audience this is a store page, not income. The test is a live page by Friday, not a passive stream.",
       "links": [
         {
-          "label": "Gumroad",
-          "url": "https://gumroad.com/"
+          "label": "itch.io payments & open revenue share",
+          "url": "https://itch.io/docs/creators/payments"
         },
         {
-          "label": "Etsy Digital",
-          "url": "https://etsy.com/"
+          "label": "Steam Direct fee",
+          "url": "https://partner.steamgames.com/doc/gettingstarted/appfee"
         }
       ],
-      "timestamp": "2026-08-28T09:30:00+01:00"
+      "timestamp": "2026-09-01T09:10:00+01:00"
     }
   ]
 }
