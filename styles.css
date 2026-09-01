@@ -322,6 +322,12 @@ body {
     border: 1px solid rgba(0, 255, 136, 0.3);
 }
 
+.project-status-badge.untracked {
+    background: rgba(139, 148, 158, 0.15);
+    color: var(--text-secondary);
+    border: 1px solid rgba(139, 148, 158, 0.3);
+}
+
 .project-token-count {
     display: flex;
     align-items: center;
@@ -418,6 +424,10 @@ body {
     background: var(--accent-orange);
 }
 
+.roadmap-phase.phase-untracked {
+    background: var(--text-muted);
+}
+
 @keyframes phase-pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
@@ -492,6 +502,10 @@ body {
     margin-top: 2rem;
 }
 
+.board-staff-section {
+    margin-top: 2rem;
+}
+
 .section-title {
     display: flex;
     align-items: center;
@@ -515,6 +529,12 @@ body {
     gap: 1rem;
 }
 
+.board-staff-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .private-staff-tile {
     display: flex;
     flex-direction: column;
@@ -525,6 +545,22 @@ body {
     border: 1px solid var(--border-primary);
     border-radius: 8px;
     opacity: 0.6;
+}
+
+.board-staff-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 1rem 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.board-staff-tile:hover {
+    border-color: var(--border-accent);
 }
 
 .lock-icon-small {
@@ -538,6 +574,19 @@ body {
     font-size: 0.9rem;
     color: var(--locked-color);
     letter-spacing: 0.1em;
+}
+
+.board-staff-name {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    letter-spacing: 0.1em;
+}
+
+.board-staff-role {
+    font-size: 0.65rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.05em;
 }
 
 .private-staff-status {
@@ -619,6 +668,11 @@ body {
 .list-item-status.ongoing {
     background: rgba(0, 255, 136, 0.15);
     color: var(--accent-green);
+}
+
+.list-item-status.untracked {
+    background: rgba(139, 148, 158, 0.15);
+    color: var(--text-secondary);
 }
 
 .list-item-name {
@@ -996,6 +1050,12 @@ body {
     border: 1px solid rgba(0, 255, 136, 0.3);
 }
 
+.project-detail-status.untracked {
+    background: rgba(139, 148, 158, 0.15);
+    color: var(--text-secondary);
+    border: 1px solid rgba(139, 148, 158, 0.3);
+}
+
 .project-detail-name {
     font-family: var(--font-display);
     font-size: 2rem;
@@ -1107,6 +1167,10 @@ body {
 
 .roadmap-item.phase-ongoing .roadmap-marker {
     background: var(--accent-orange);
+}
+
+.roadmap-item.phase-untracked .roadmap-marker {
+    background: var(--text-muted);
 }
 
 @keyframes marker-pulse {

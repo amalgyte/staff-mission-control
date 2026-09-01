@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T16:30:00+01:00",
+  "updated": "2026-09-01T19:20:00+01:00",
   "note": "All spend data is tracked here. Do NOT invent dollar/GBP costs — use 'untracked' or 0 until real numbers exist.",
   "periods": [
     {
@@ -113,6 +113,78 @@
       "tokens": 0,
       "estimatedHours": "untracked",
       "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "geo-legends",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "jessie-hanna",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "waggulous-dog-walking",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "towers-jam",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "dating-app-net8",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "open-midi-arranger",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "game-compendium",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "hex-wars",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
+    },
+    {
+      "projectId": "towers-on-twitch",
+      "staffId": "developer",
+      "periodId": "2026-09",
+      "tokens": 0,
+      "estimatedHours": "untracked",
+      "currencyNote": "No currency costs tracked"
     }
   ],
   "totals": {
@@ -120,7 +192,16 @@
     "byProject": {
       "pet-care": { "tokens": 0, "estimatedHours": "untracked" },
       "amalgyte": { "tokens": 0, "estimatedHours": "untracked" },
-      "studio": { "tokens": 0, "estimatedHours": "untracked" }
+      "studio": { "tokens": 0, "estimatedHours": "untracked" },
+      "geo-legends": { "tokens": 0, "estimatedHours": "untracked" },
+      "jessie-hanna": { "tokens": 0, "estimatedHours": "untracked" },
+      "waggulous-dog-walking": { "tokens": 0, "estimatedHours": "untracked" },
+      "towers-jam": { "tokens": 0, "estimatedHours": "untracked" },
+      "dating-app-net8": { "tokens": 0, "estimatedHours": "untracked" },
+      "open-midi-arranger": { "tokens": 0, "estimatedHours": "untracked" },
+      "game-compendium": { "tokens": 0, "estimatedHours": "untracked" },
+      "hex-wars": { "tokens": 0, "estimatedHours": "untracked" },
+      "towers-on-twitch": { "tokens": 0, "estimatedHours": "untracked" }
     },
     "overall": { "tokens": 0, "estimatedHours": "untracked" }
   }

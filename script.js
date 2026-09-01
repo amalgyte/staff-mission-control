@@ -59,6 +59,7 @@
             case 'complete': return 'phase-complete';
             case 'in-progress': return 'phase-active';
             case 'ongoing': return 'phase-ongoing';
+            case 'untracked': return 'phase-untracked';
             default: return 'phase-pending';
         }
     }
@@ -129,24 +130,18 @@
         `;
     }
 
-    function renderPrivateStaffTile(staff) {
+    function renderBoardStaffTile(staff) {
         return `
-            <div class="private-staff-tile">
-                <div class="lock-icon-small">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-                        <path d="M7 11V7a5 5 0 0110 0v4"/>
-                    </svg>
-                </div>
-                <span class="private-staff-name">${escapeHtml(staff.name)}</span>
-                <span class="private-staff-status">${escapeHtml(staff.status)}</span>
+            <div class="board-staff-tile">
+                <span class="board-staff-name">${escapeHtml(staff.name)}</span>
+                <span class="board-staff-role">${escapeHtml(staff.role)}</span>
             </div>
         `;
     }
 
     async function loadDashboard() {
         const projectsContainer = document.getElementById('projects-container');
-        const privateStaffContainer = document.getElementById('private-staff-container');
+        const boardStaffContainer = document.getElementById('board-staff-container');
         
         if (!projectsContainer) return;
 
@@ -163,12 +158,13 @@
             const spendData = await spendRes.json();
 
             const projects = projectsData.projects || [];
-            const privateStaff = projectsData.privateStaff || [];
+            const boardStaff = projectsData.boardStaff || [];
 
             document.getElementById('total-projects').textContent = projects.length;
             
             const uniqueStaff = new Set();
             projects.forEach(p => p.staff.forEach(s => uniqueStaff.add(s.id)));
+            boardStaff.forEach(s => uniqueStaff.add(s.id));
             document.getElementById('total-staff').textContent = uniqueStaff.size;
 
             const totalTokens = spendData.totals?.overall?.tokens || 0;
@@ -176,8 +172,8 @@
 
             projectsContainer.innerHTML = projects.map(p => renderProjectCard(p, spendData)).join('');
 
-            if (privateStaffContainer && privateStaff.length > 0) {
-                privateStaffContainer.innerHTML = privateStaff.map(renderPrivateStaffTile).join('');
+            if (boardStaffContainer && boardStaff.length > 0) {
+                boardStaffContainer.innerHTML = boardStaff.map(renderBoardStaffTile).join('');
             }
 
             updateLastSync(projectsData.updated);
