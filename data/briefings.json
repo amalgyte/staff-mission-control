@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T09:20:00+01:00",
+  "updated": "2026-09-02T18:05:00+01:00",
   "briefings": [
     {
       "id": "theo-20260901-yt-views",
@@ -213,6 +213,14 @@
       "summary": "2 Sep: nothing booked. Required-of-Simon list is empty. GoPro is off even as optional — a film would be stacking. Pet Care and Amalgyte stay with staff. HiNotes signed in; no new personal or project recordings to publish. Unilink stays off this board.",
       "links": [],
       "timestamp": "2026-09-02T09:05:00+01:00"
+    },
+    {
+      "id": "julian-20260902-evening",
+      "staff": "julian",
+      "title": "Still a recovery day. Nothing required tonight.",
+      "summary": "Still a recovery day. Nothing required tonight, including GoPro. Dawnwalker at 11pm is a clock check, not a late night. Tomorrow is soon enough.",
+      "links": [],
+      "timestamp": "2026-09-02T18:05:00+01:00"
     }
   ]
 }
