@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T09:05:00+01:00",
+  "updated": "2026-09-02T09:20:00+01:00",
   "briefings": [
     {
       "id": "theo-20260901-yt-views",
@@ -162,7 +162,44 @@
       "timestamp": "2026-09-02T09:05:00+01:00"
     },
     {
-      "id": "julian-20260902-one-primary",
+      "id": "poppy-20260902-moonlighter",
+      "staff": "poppy",
+      "title": "Moonlighter 2: The Endless Vault hits 1.0 today",
+      "summary": "Digital Sun / 11 bit: Moonlighter 2 leaves Early Access on 2 Sep 2026 for PC, PS5, Xbox Series, Switch 2, with Xbox Game Pass day one. Studio menu: GoPro stays the one primary if it is not already filmed; Moonlighter is an extra, not a second mandate. Filmable short: EA to 1.0 — what actually changed for a shopkeeper-dungeon run.",
+      "links": [
+        {"label": "Gematsu — 2 Sep launch", "url": "https://www.gematsu.com/2026/08/moonlighter-2-the-endless-vault-launches-september-2"},
+        {"label": "Steam — Moonlighter 2", "url": "https://store.steampowered.com/app/2350790/Moonlighter_2_The_Endless_Vault/"}
+      ],
+      "timestamp": "2026-09-02T09:05:00+01:00"
+    },
+    {
+      "id": "poppy-20260902-twitch-gif",
+      "staff": "poppy",
+      "title": "Twitch GIF Keyboard for Tier 2/3 subs (default on)",
+      "summary": "From 1 Sep 2026, Twitch lets Tier 2 and Tier 3 subscribers send GIPHY GIFs in chat (about a 30s cooldown). Streamers get a dashboard kill-switch; Emote-Only and Shield Mode still block them. Studio treats this as a 40s desk extra behind GoPro, not a stacked film. Hook: would you leave GIFs on, or kill them day one?",
+      "links": [
+        {"label": "Dexerto, 1 Sep 2026", "url": "https://www.dexerto.com/twitch/twitch-finally-lets-subscribers-send-gifs-directly-in-chat-3404802/"}
+      ],
+      "timestamp": "2026-09-02T09:05:00+01:00"
+    },
+    {
+      "id": "nora-20260902-journal",
+      "staff": "nora",
+      "title": "1 Sep recovery day — walks, Silo, staff review",
+      "summary": "On 1 Sep Simon took a recovery day off Unilink work. Morning walk with Zander, ball-play at lunch, then an evening walk and ball play at Market Bosworth with rain looking likely. Most of the day was Silo. He reviewed staff progress, was pleased with the early setup, and wants Pet Care Portal live soon enough to onboard local providers, then owners, for a beta. Amalgyte stays a live parallel project.",
+      "links": [],
+      "timestamp": "2026-09-02T09:05:00+01:00"
+    },
+    {
+      "id": "rowan-20260902-health",
+      "staff": "rowan",
+      "title": "Weight 218.6 lb; sleep 7h48; BP still stale since June",
+      "summary": "Health Mate (2 Sep): weight 218.6 lb at 00:11 (fat mass 64.7 lb; about −2.0 lb since 1 Aug). Sleep 7h 48m, score 75. Spot HR 62 BPM with ECG normal sinus rhythm; PWV 8.3 m/s. Steps last strong day 12,845 on 31 Aug (128% of 10k) with walking sessions 30–31 Aug; 28–29 Aug were low-step days. Blood pressure is still 110/76 from 3 Jun 2026 — BPM Connect has not logged a good reading since (Aug 20 note: not positioned properly). Fresh BP when he is up for it. Temperature and environment: no recent data.",
+      "links": [],
+      "timestamp": "2026-09-02T09:05:00+01:00"
+    },
+    {
+      "id": "julian-20260902-pace",
       "staff": "julian",
       "title": "Recovery day. No required tasks.",
       "summary": "Recovery day. No required tasks. Rest counts; a film or client check would be stacking. Tomorrow is soon enough.",
@@ -170,18 +207,10 @@
       "timestamp": "2026-09-02T09:05:00+01:00"
     },
     {
-      "id": "rowan-20260902-health",
-      "staff": "rowan",
-      "title": "Weight 218.6 lb; sleep 7h 48m; BP still stale from 3 Jun",
-      "summary": "Weight 218.6 lb (2 Sep; −2.0 lb since 1 Aug). Sleep 7h 48m, score 75. Spot HR 62. Steps last logged 12,845 on 31 Aug (128% of 10k). BP 110/76 from 3 Jun — stale (~3 months). No meals, training, or supplements logged with Rowan this cycle. Health Mate also shows recent walking sessions on 30–31 Aug.",
-      "links": [],
-      "timestamp": "2026-09-02T09:05:00+01:00"
-    },
-    {
-      "id": "poppy-20260902-menu",
-      "staff": "poppy",
-      "title": "GoPro still primary; Moonlighter 2 1.0 and Twitch GIF keyboard are extras",
-      "summary": "GoPro still primary if it isn’t already in the can. If you want one extra: Moonlighter 2 hits 1.0 today, or Twitch T2/T3 GIF keyboard (40s creator-tool). Dawnwalker unlocks 11pm London — film the time, don’t stay up for footage.",
+      "id": "maeve-20260902-desk",
+      "staff": "maeve",
+      "title": "Required list empty — recovery day",
+      "summary": "2 Sep: nothing booked. Required-of-Simon list is empty. GoPro is off even as optional — a film would be stacking. Pet Care and Amalgyte stay with staff. HiNotes signed in; no new personal or project recordings to publish. Unilink stays off this board.",
       "links": [],
       "timestamp": "2026-09-02T09:05:00+01:00"
     }
