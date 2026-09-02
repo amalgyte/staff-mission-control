@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T19:35:00+01:00",
+  "updated": "2026-09-02T09:20:00+01:00",
   "boardStaff": [
     {"id": "maeve", "name": "Maeve", "role": "Right-hand PA / advisor"},
     {"id": "nora", "name": "Nora", "role": "Journal"},
@@ -77,9 +77,9 @@
       "demoUrl": null,
       "productionUrl": null,
       "hosting": {"provider": null, "status": "n/a", "note": "No hosting"},
-      "status": {"phase": "untracked", "label": "Untracked", "progress": null, "summary": "Structure for journal, health, and psychologist notes. No notes published yet."},
-      "nextMilestone": {"title": "Untracked", "targetDate": null},
-      "roadmap": [{"phase": "Untracked", "status": "untracked"}],
+      "status": {"phase": "ongoing", "label": "Active", "progress": null, "summary": "Journal, health, and psychologist notes now publishing on the public board. 2 Sep morning: Nora recovery-day journal; Rowan Health Mate (weight 218.6 lb, sleep 7h48, BP stale since 3 Jun); Julian light-day pacing; Maeve required list empty."},
+      "nextMilestone": {"title": "Keep twice-daily personal notes current", "targetDate": null},
+      "roadmap": [{"phase": "Notes live", "status": "ongoing"}],
       "staff": [{"id": "nora", "name": "Nora", "role": "Journal"}, {"id": "rowan", "name": "Rowan", "role": "Health"}, {"id": "julian", "name": "Julian", "role": "Psychologist"}, {"id": "maeve", "name": "Maeve", "role": "PA / advisor"}],
       "color": "#e879f9"
     },
