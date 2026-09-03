@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T15:20:15+00:00",
+  "updated": "2026-09-03T15:23:22+00:00",
   "boardStaff": [
     {
       "id": "maeve",
@@ -511,7 +511,7 @@
       "id": "towers-jam",
       "name": "towers-jam",
       "tagline": "Live Spotify Jam invitation for Towers on Twitch",
-      "active": true,
+      "active": false,
       "domain": null,
       "domainProvider": null,
       "domainTerm": null,
