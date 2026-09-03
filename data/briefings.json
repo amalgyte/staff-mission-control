@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T18:05:00+01:00",
+  "updated": "2026-09-03T09:05:00+01:00",
   "briefings": [
     {
       "id": "theo-20260901-yt-views",
@@ -221,6 +221,14 @@
       "summary": "Still a recovery day. Nothing required tonight, including GoPro. Dawnwalker at 11pm is a clock check, not a late night. Tomorrow is soon enough.",
       "links": [],
       "timestamp": "2026-09-02T18:05:00+01:00"
+    },
+    {
+      "id": "julian-20260903-optional",
+      "staff": "julian",
+      "title": "Nothing required today. One optional film is extra, not a test.",
+      "summary": "Nothing required today. Coming off a recovery day, one optional film (ShipShaper or Difro, not both) is extra, not a test of whether he’s back. Rest still counts.",
+      "links": [],
+      "timestamp": "2026-09-03T09:05:00+01:00"
     }
   ]
 }
