@@ -1,10 +1,26 @@
 {
-  "updated": "2026-09-03T14:15:00+01:00",
+  "updated": "2026-09-03T15:20:15+00:00",
   "boardStaff": [
-    { "id": "maeve", "name": "Maeve", "role": "Right-hand PA / advisor" },
-    { "id": "nora", "name": "Nora", "role": "Journal" },
-    { "id": "rowan", "name": "Rowan", "role": "Health" },
-    { "id": "julian", "name": "Julian", "role": "Psychologist" }
+    {
+      "id": "maeve",
+      "name": "Maeve",
+      "role": "Right-hand PA / advisor"
+    },
+    {
+      "id": "nora",
+      "name": "Nora",
+      "role": "Journal"
+    },
+    {
+      "id": "rowan",
+      "name": "Rowan",
+      "role": "Health"
+    },
+    {
+      "id": "julian",
+      "name": "Julian",
+      "role": "Psychologist"
+    }
   ],
   "projects": [
     {
@@ -17,7 +33,10 @@
       "domainTerm": "5 years",
       "repo": "amalgyte/Pet-Care-Portal",
       "repoUrl": "https://github.com/amalgyte/Pet-Care-Portal",
-      "stack": ["React", "Firebase"],
+      "stack": [
+        "React",
+        "Firebase"
+      ],
       "demoUrl": "https://amalgyte.github.io/Pet-Care-Portal/",
       "productionUrl": null,
       "hosting": {
@@ -36,20 +55,62 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Setup", "status": "complete" },
-        { "phase": "Demo Build", "status": "complete" },
-        { "phase": "Domain Purchase", "status": "complete" },
-        { "phase": "Firebase Hosting", "status": "in-progress" },
-        { "phase": "Production Launch", "status": "pending" },
-        { "phase": "Marketing", "status": "pending" }
+        {
+          "phase": "Setup",
+          "status": "complete"
+        },
+        {
+          "phase": "Demo Build",
+          "status": "complete"
+        },
+        {
+          "phase": "Domain Purchase",
+          "status": "complete"
+        },
+        {
+          "phase": "Firebase Hosting",
+          "status": "in-progress"
+        },
+        {
+          "phase": "Production Launch",
+          "status": "pending"
+        },
+        {
+          "phase": "Marketing",
+          "status": "pending"
+        }
       ],
       "staff": [
-        { "id": "holly", "name": "Holly", "role": "Product" },
-        { "id": "owen", "name": "Owen", "role": "CRM" },
-        { "id": "sienna", "name": "Sienna", "role": "Marketing" },
-        { "id": "callum", "name": "Callum", "role": "Sales" },
-        { "id": "evelyn", "name": "Evelyn", "role": "Advisor" },
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "holly",
+          "name": "Holly",
+          "role": "Product"
+        },
+        {
+          "id": "owen",
+          "name": "Owen",
+          "role": "CRM"
+        },
+        {
+          "id": "sienna",
+          "name": "Sienna",
+          "role": "Marketing"
+        },
+        {
+          "id": "callum",
+          "name": "Callum",
+          "role": "Sales"
+        },
+        {
+          "id": "evelyn",
+          "name": "Evelyn",
+          "role": "Advisor"
+        },
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#00d4ff"
     },
@@ -82,16 +143,44 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Brand Direction", "status": "in-progress" },
-        { "phase": "Site Design", "status": "pending" },
-        { "phase": "Delivery Board", "status": "pending" },
-        { "phase": "Launch", "status": "pending" }
+        {
+          "phase": "Brand Direction",
+          "status": "in-progress"
+        },
+        {
+          "phase": "Site Design",
+          "status": "pending"
+        },
+        {
+          "phase": "Delivery Board",
+          "status": "pending"
+        },
+        {
+          "phase": "Launch",
+          "status": "pending"
+        }
       ],
       "staff": [
-        { "id": "edmund", "name": "Edmund", "role": "Brand and Site" },
-        { "id": "harriet", "name": "Harriet", "role": "Delivery" },
-        { "id": "felix", "name": "Felix", "role": "Marketing" },
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "edmund",
+          "name": "Edmund",
+          "role": "Brand and Site"
+        },
+        {
+          "id": "harriet",
+          "name": "Harriet",
+          "role": "Delivery"
+        },
+        {
+          "id": "felix",
+          "name": "Felix",
+          "role": "Marketing"
+        },
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#a855f7"
     },
@@ -124,14 +213,35 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Research Setup", "status": "complete" },
-        { "phase": "Trend Monitoring", "status": "ongoing" },
-        { "phase": "Briefing Production", "status": "ongoing" }
+        {
+          "phase": "Research Setup",
+          "status": "complete"
+        },
+        {
+          "phase": "Trend Monitoring",
+          "status": "ongoing"
+        },
+        {
+          "phase": "Briefing Production",
+          "status": "ongoing"
+        }
       ],
       "staff": [
-        { "id": "theo", "name": "Theo", "role": "Research" },
-        { "id": "poppy", "name": "Poppy", "role": "Trends" },
-        { "id": "clara", "name": "Clara", "role": "Income Ideas" }
+        {
+          "id": "theo",
+          "name": "Theo",
+          "role": "Research"
+        },
+        {
+          "id": "poppy",
+          "name": "Poppy",
+          "role": "Trends"
+        },
+        {
+          "id": "clara",
+          "name": "Clara",
+          "role": "Income Ideas"
+        }
       ],
       "color": "#00ff88"
     },
@@ -164,13 +274,32 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Notes live", "status": "ongoing" }
+        {
+          "phase": "Notes live",
+          "status": "ongoing"
+        }
       ],
       "staff": [
-        { "id": "nora", "name": "Nora", "role": "Journal" },
-        { "id": "rowan", "name": "Rowan", "role": "Health" },
-        { "id": "julian", "name": "Julian", "role": "Psychologist" },
-        { "id": "maeve", "name": "Maeve", "role": "PA / advisor" }
+        {
+          "id": "nora",
+          "name": "Nora",
+          "role": "Journal"
+        },
+        {
+          "id": "rowan",
+          "name": "Rowan",
+          "role": "Health"
+        },
+        {
+          "id": "julian",
+          "name": "Julian",
+          "role": "Psychologist"
+        },
+        {
+          "id": "maeve",
+          "name": "Maeve",
+          "role": "PA / advisor"
+        }
       ],
       "color": "#e879f9"
     },
@@ -203,16 +332,45 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Research", "status": "in-progress" },
-        { "phase": "Product exploration", "status": "in-progress" },
-        { "phase": "Code", "status": "pending" }
+        {
+          "phase": "Research",
+          "status": "in-progress"
+        },
+        {
+          "phase": "Product exploration",
+          "status": "in-progress"
+        },
+        {
+          "phase": "Code",
+          "status": "pending"
+        }
       ],
       "staff": [
-        { "id": "iris", "name": "Iris", "role": "Product" },
-        { "id": "marcus", "name": "Marcus", "role": "Research" },
-        { "id": "quinn", "name": "Quinn", "role": "Trust and safety" },
-        { "id": "celia", "name": "Celia", "role": "Monetisation" },
-        { "id": "bram", "name": "Bram", "role": "UK legal (advisory, not solicitor of record)" }
+        {
+          "id": "iris",
+          "name": "Iris",
+          "role": "Product"
+        },
+        {
+          "id": "marcus",
+          "name": "Marcus",
+          "role": "Research"
+        },
+        {
+          "id": "quinn",
+          "name": "Quinn",
+          "role": "Trust and safety"
+        },
+        {
+          "id": "celia",
+          "name": "Celia",
+          "role": "Monetisation"
+        },
+        {
+          "id": "bram",
+          "name": "Bram",
+          "role": "UK legal (advisory, not solicitor of record)"
+        }
       ],
       "color": "#fb7185"
     },
@@ -226,7 +384,9 @@
       "domainTerm": null,
       "repo": "amalgyte/geo-legends",
       "repoUrl": "https://github.com/amalgyte/geo-legends",
-      "stack": ["TypeScript"],
+      "stack": [
+        "TypeScript"
+      ],
       "demoUrl": null,
       "productionUrl": null,
       "hosting": {
@@ -245,10 +405,17 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Untracked", "status": "untracked" }
+        {
+          "phase": "Untracked",
+          "status": "untracked"
+        }
       ],
       "staff": [
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#f59e0b"
     },
@@ -281,10 +448,17 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Untracked", "status": "untracked" }
+        {
+          "phase": "Untracked",
+          "status": "untracked"
+        }
       ],
       "staff": [
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#ec4899"
     },
@@ -298,7 +472,9 @@
       "domainTerm": null,
       "repo": "amalgyte/WaggulousDogWalking",
       "repoUrl": "https://github.com/amalgyte/WaggulousDogWalking",
-      "stack": ["TypeScript"],
+      "stack": [
+        "TypeScript"
+      ],
       "demoUrl": null,
       "productionUrl": null,
       "hosting": {
@@ -317,10 +493,17 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Untracked", "status": "untracked" }
+        {
+          "phase": "Untracked",
+          "status": "untracked"
+        }
       ],
       "staff": [
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#8b5cf6"
     },
@@ -328,7 +511,7 @@
       "id": "towers-jam",
       "name": "towers-jam",
       "tagline": "Live Spotify Jam invitation for Towers on Twitch",
-      "active": false,
+      "active": true,
       "domain": null,
       "domainProvider": null,
       "domainTerm": null,
@@ -353,10 +536,17 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Untracked", "status": "untracked" }
+        {
+          "phase": "Untracked",
+          "status": "untracked"
+        }
       ],
       "staff": [
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#10b981"
     },
@@ -370,7 +560,9 @@
       "domainTerm": null,
       "repo": "amalgyte/OpenMidiArranger",
       "repoUrl": null,
-      "stack": ["TypeScript"],
+      "stack": [
+        "TypeScript"
+      ],
       "demoUrl": null,
       "productionUrl": null,
       "hosting": {
@@ -389,10 +581,17 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Untracked", "status": "untracked" }
+        {
+          "phase": "Untracked",
+          "status": "untracked"
+        }
       ],
       "staff": [
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#ef4444"
     },
@@ -406,7 +605,9 @@
       "domainTerm": null,
       "repo": "amalgyte/GameCompendium",
       "repoUrl": null,
-      "stack": ["TypeScript"],
+      "stack": [
+        "TypeScript"
+      ],
       "demoUrl": null,
       "productionUrl": null,
       "hosting": {
@@ -425,10 +626,17 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Untracked", "status": "untracked" }
+        {
+          "phase": "Untracked",
+          "status": "untracked"
+        }
       ],
       "staff": [
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#14b8a6"
     },
@@ -442,7 +650,9 @@
       "domainTerm": null,
       "repo": "amalgyte/HexWars",
       "repoUrl": null,
-      "stack": ["TypeScript"],
+      "stack": [
+        "TypeScript"
+      ],
       "demoUrl": null,
       "productionUrl": null,
       "hosting": {
@@ -461,10 +671,17 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Untracked", "status": "untracked" }
+        {
+          "phase": "Untracked",
+          "status": "untracked"
+        }
       ],
       "staff": [
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#f97316"
     },
@@ -478,7 +695,9 @@
       "domainTerm": null,
       "repo": "amalgyte/TowersOnTwitch",
       "repoUrl": null,
-      "stack": ["JavaScript"],
+      "stack": [
+        "JavaScript"
+      ],
       "demoUrl": null,
       "productionUrl": null,
       "hosting": {
@@ -497,10 +716,17 @@
         "targetDate": null
       },
       "roadmap": [
-        { "phase": "Untracked", "status": "untracked" }
+        {
+          "phase": "Untracked",
+          "status": "untracked"
+        }
       ],
       "staff": [
-        { "id": "developer", "name": "Developer", "role": "Code" }
+        {
+          "id": "developer",
+          "name": "Developer",
+          "role": "Code"
+        }
       ],
       "color": "#84cc16"
     }
