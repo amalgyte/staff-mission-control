@@ -1528,3 +1528,148 @@ a.link-value:hover {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* Active/Inactive Project Indicators */
+.active-indicator,
+.active-indicator-compact,
+.active-indicator-detail {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.6rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+.active-indicator-light {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.active-indicator.on,
+.active-indicator-compact.on,
+.active-indicator-detail.on {
+    background: rgba(0, 255, 136, 0.15);
+    border: 1px solid rgba(0, 255, 136, 0.4);
+    color: var(--accent-green);
+}
+
+.active-indicator.on .active-indicator-light,
+.active-indicator-compact.on .active-indicator-light,
+.active-indicator-detail.on .active-indicator-light {
+    background: var(--accent-green);
+    box-shadow: 0 0 8px var(--glow-green);
+    animation: active-pulse 2s ease-in-out infinite;
+}
+
+.active-indicator.off,
+.active-indicator-compact.off,
+.active-indicator-detail.off {
+    background: rgba(72, 79, 88, 0.2);
+    border: 1px solid rgba(72, 79, 88, 0.4);
+    color: var(--text-muted);
+}
+
+.active-indicator.off .active-indicator-light,
+.active-indicator-compact.off .active-indicator-light,
+.active-indicator-detail.off .active-indicator-light {
+    background: var(--text-muted);
+    opacity: 0.5;
+}
+
+@keyframes active-pulse {
+    0%, 100% { box-shadow: 0 0 8px var(--glow-green); }
+    50% { box-shadow: 0 0 16px var(--glow-green), 0 0 24px var(--glow-green); }
+}
+
+/* Detail page active indicator */
+.active-indicator-detail {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.7rem;
+}
+
+.active-indicator-hint {
+    font-size: 0.55rem;
+    opacity: 0.7;
+    margin-left: 0.25rem;
+}
+
+.project-detail-badges {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+}
+
+/* List item badges row */
+.list-item-badges {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+}
+
+/* Inactive project styling - visually dimmed */
+.project-card.project-inactive {
+    opacity: 0.55;
+    filter: grayscale(0.4);
+}
+
+.project-card.project-inactive::before {
+    opacity: 0.4;
+}
+
+.project-card.project-inactive:hover {
+    opacity: 0.75;
+    filter: grayscale(0.2);
+}
+
+.project-list-item.project-inactive {
+    opacity: 0.55;
+    filter: grayscale(0.4);
+}
+
+.project-list-item.project-inactive::before {
+    opacity: 0.4;
+}
+
+.project-list-item.project-inactive:hover {
+    opacity: 0.75;
+    filter: grayscale(0.2);
+}
+
+.project-detail-header.project-inactive {
+    opacity: 0.7;
+    filter: grayscale(0.3);
+}
+
+.project-detail-header.project-inactive::before {
+    opacity: 0.5;
+}
+
+/* Active project styling - emphasized */
+.project-card.project-active {
+    border-color: rgba(0, 255, 136, 0.25);
+}
+
+.project-card.project-active:hover {
+    border-color: rgba(0, 255, 136, 0.4);
+}
+
+.project-list-item.project-active {
+    border-color: rgba(0, 255, 136, 0.25);
+}
+
+.project-list-item.project-active:hover {
+    border-color: rgba(0, 255, 136, 0.4);
+}
+
+.project-detail-header.project-active {
+    border-color: rgba(0, 255, 136, 0.25);
+}

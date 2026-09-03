@@ -90,10 +90,19 @@
             `<div class="roadmap-phase ${getPhaseClass(phase.status)}" title="${escapeHtml(phase.phase)}"></div>`
         ).join('');
 
+        const isActive = project.active === true;
+        const activeClass = isActive ? 'project-active' : 'project-inactive';
+        const activeIndicator = `
+            <div class="active-indicator ${isActive ? 'on' : 'off'}" title="${isActive ? 'Active — AI spend enabled' : 'Inactive — AI spend paused'}">
+                <span class="active-indicator-light"></span>
+                <span class="active-indicator-label">${isActive ? 'ACTIVE' : 'INACTIVE'}</span>
+            </div>`;
+
         return `
-            <article class="project-card" style="--project-color: ${project.color}">
+            <article class="project-card ${activeClass}" style="--project-color: ${project.color}">
                 <div class="project-card-header">
                     <div class="project-status-badge ${project.status.phase}">${escapeHtml(project.status.label)}</div>
+                    ${activeIndicator}
                     <div class="project-token-count">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
                             <circle cx="12" cy="12" r="10"/>
@@ -170,10 +179,18 @@
     function renderProjectListItem(project, spendData) {
         const projectSpend = spendData.spend.filter(s => s.projectId === project.id);
         const totalTokens = projectSpend.reduce((sum, s) => sum + (s.tokens || 0), 0);
+        const isActive = project.active === true;
+        const activeClass = isActive ? 'project-active' : 'project-inactive';
         return `
-            <a href="${basePath}projects/${project.id}.html" class="project-list-item" style="--project-color: ${project.color}">
+            <a href="${basePath}projects/${project.id}.html" class="project-list-item ${activeClass}" style="--project-color: ${project.color}">
                 <div class="list-item-main">
-                    <div class="list-item-status ${project.status.phase}">${escapeHtml(project.status.label)}</div>
+                    <div class="list-item-badges">
+                        <div class="list-item-status ${project.status.phase}">${escapeHtml(project.status.label)}</div>
+                        <div class="active-indicator-compact ${isActive ? 'on' : 'off'}" title="${isActive ? 'Active — AI spend enabled' : 'Inactive — AI spend paused'}">
+                            <span class="active-indicator-light"></span>
+                            <span class="active-indicator-label">${isActive ? 'ACTIVE' : 'INACTIVE'}</span>
+                        </div>
+                    </div>
                     <h3 class="list-item-name">${escapeHtml(project.name)}</h3>
                     <p class="list-item-tagline">${escapeHtml(project.tagline)}</p>
                 </div>
@@ -210,6 +227,7 @@
     function renderProjectDetail(project, spendData) {
         const projectSpend = spendData.spend.filter(s => s.projectId === project.id);
         const totalTokens = projectSpend.reduce((sum, s) => sum + (s.tokens || 0), 0);
+        const isActive = project.active === true;
         const staffHtml = project.staff.map(s => {
             const staffSpend = projectSpend.find(sp => sp.staffId === s.id);
             const tokens = staffSpend?.tokens || 0;
@@ -221,9 +239,18 @@
         if (project.domain) linksHtml.push(`<div class="detail-link-item"><span class="link-label">Domain:</span> <span class="link-value">${escapeHtml(project.domain)}</span></div>`);
         if (project.repoUrl) linksHtml.push(`<div class="detail-link-item"><span class="link-label">Repository:</span> <a href="${escapeHtml(project.repoUrl)}" class="link-value" target="_blank" rel="noopener">${escapeHtml(project.repo)}</a></div>`);
         if (project.demoUrl) linksHtml.push(`<div class="detail-link-item"><span class="link-label">Demo:</span> <a href="${escapeHtml(project.demoUrl)}" class="link-value" target="_blank" rel="noopener">View Demo</a></div>`);
+        const activeIndicatorDetail = `
+            <div class="active-indicator-detail ${isActive ? 'on' : 'off'}">
+                <span class="active-indicator-light"></span>
+                <span class="active-indicator-label">${isActive ? 'ACTIVE' : 'INACTIVE'}</span>
+                <span class="active-indicator-hint">${isActive ? 'AI spend enabled' : 'AI spend paused'}</span>
+            </div>`;
         return `
-            <header class="project-detail-header" style="--project-color: ${project.color}">
-                <div class="project-detail-status ${project.status.phase}">${escapeHtml(project.status.label)}</div>
+            <header class="project-detail-header ${isActive ? 'project-active' : 'project-inactive'}" style="--project-color: ${project.color}">
+                <div class="project-detail-badges">
+                    <div class="project-detail-status ${project.status.phase}">${escapeHtml(project.status.label)}</div>
+                    ${activeIndicatorDetail}
+                </div>
                 <h1 class="project-detail-name">${escapeHtml(project.name)}</h1>
                 <p class="project-detail-tagline">${escapeHtml(project.tagline)}</p>
             </header>
