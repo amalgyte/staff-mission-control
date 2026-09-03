@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T15:23:22+00:00",
+  "updated": "2026-09-03T15:28:43+00:00",
   "boardStaff": [
     {
       "id": "maeve",
@@ -27,7 +27,7 @@
       "id": "pet-care",
       "name": "Pet Care Portal",
       "tagline": "Pet services marketplace",
-      "active": false,
+      "active": true,
       "domain": "petcareportal.co.uk",
       "domainProvider": "IONOS",
       "domainTerm": "5 years",
