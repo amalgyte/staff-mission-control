@@ -1673,3 +1673,132 @@ a.link-value:hover {
 .project-detail-header.project-active {
     border-color: rgba(0, 255, 136, 0.25);
 }
+
+/* Toggle Switch Styles (display-only, not interactive) */
+.active-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: default;
+    user-select: none;
+}
+
+.toggle-track {
+    display: inline-flex;
+    align-items: center;
+    width: 36px;
+    height: 18px;
+    background: rgba(72, 79, 88, 0.4);
+    border-radius: 9px;
+    padding: 2px;
+    position: relative;
+    transition: background 0.2s ease;
+    border: 1px solid rgba(72, 79, 88, 0.6);
+}
+
+.toggle-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--text-muted);
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 2px;
+}
+
+.toggle-label {
+    font-family: var(--font-display);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.toggle-hint {
+    font-size: 0.55rem;
+    color: var(--text-muted);
+    opacity: 0.7;
+    margin-left: 0.25rem;
+}
+
+/* Toggle ON state */
+.active-toggle.on .toggle-track {
+    background: rgba(0, 255, 136, 0.25);
+    border-color: rgba(0, 255, 136, 0.5);
+}
+
+.active-toggle.on .toggle-thumb {
+    background: var(--accent-green);
+    left: calc(100% - 16px);
+    box-shadow: 0 0 8px var(--glow-green), 0 0 16px var(--glow-green);
+}
+
+.active-toggle.on .toggle-label {
+    color: var(--accent-green);
+}
+
+/* Toggle OFF state */
+.active-toggle.off .toggle-track {
+    background: rgba(72, 79, 88, 0.3);
+    border-color: rgba(72, 79, 88, 0.5);
+}
+
+.active-toggle.off .toggle-thumb {
+    background: var(--text-muted);
+    left: 2px;
+    opacity: 0.6;
+}
+
+.active-toggle.off .toggle-label {
+    color: var(--text-muted);
+    opacity: 0.7;
+}
+
+/* Compact toggle for list items */
+.active-toggle.compact .toggle-track {
+    width: 30px;
+    height: 16px;
+}
+
+.active-toggle.compact .toggle-thumb {
+    width: 12px;
+    height: 12px;
+}
+
+.active-toggle.compact.on .toggle-thumb {
+    left: calc(100% - 14px);
+}
+
+.active-toggle.compact .toggle-label {
+    font-size: 0.6rem;
+}
+
+/* Detail page toggle (larger) */
+.active-toggle.detail {
+    padding: 0.35rem 0.75rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    gap: 0.75rem;
+}
+
+.active-toggle.detail .toggle-track {
+    width: 44px;
+    height: 22px;
+}
+
+.active-toggle.detail .toggle-thumb {
+    width: 18px;
+    height: 18px;
+}
+
+.active-toggle.detail.on .toggle-thumb {
+    left: calc(100% - 20px);
+}
+
+.active-toggle.detail .toggle-label {
+    font-size: 0.75rem;
+}
+
+.active-toggle.detail .toggle-hint {
+    font-size: 0.6rem;
+}
