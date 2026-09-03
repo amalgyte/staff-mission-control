@@ -92,17 +92,19 @@
 
         const isActive = project.active === true;
         const activeClass = isActive ? 'project-active' : 'project-inactive';
-        const activeIndicator = `
-            <div class="active-indicator ${isActive ? 'on' : 'off'}" title="${isActive ? 'Active — AI spend enabled' : 'Inactive — AI spend paused'}">
-                <span class="active-indicator-light"></span>
-                <span class="active-indicator-label">${isActive ? 'ACTIVE' : 'INACTIVE'}</span>
+        const activeToggle = `
+            <div class="active-toggle ${isActive ? 'on' : 'off'}" title="${isActive ? 'Active — AI spend enabled' : 'Inactive — AI spend paused'}">
+                <span class="toggle-track">
+                    <span class="toggle-thumb"></span>
+                </span>
+                <span class="toggle-label">${isActive ? 'ON' : 'OFF'}</span>
             </div>`;
 
         return `
             <article class="project-card ${activeClass}" style="--project-color: ${project.color}">
                 <div class="project-card-header">
                     <div class="project-status-badge ${project.status.phase}">${escapeHtml(project.status.label)}</div>
-                    ${activeIndicator}
+                    ${activeToggle}
                     <div class="project-token-count">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
                             <circle cx="12" cy="12" r="10"/>
@@ -158,7 +160,8 @@
             const spendData = await spendRes.json();
             const projects = projectsData.projects || [];
             const boardStaff = projectsData.boardStaff || [];
-            document.getElementById('total-projects').textContent = projects.length;
+            const activeProjects = projects.filter(p => p.active === true);
+            document.getElementById('total-projects').textContent = activeProjects.length;
             const uniqueStaff = new Set();
             projects.forEach(p => p.staff.forEach(s => uniqueStaff.add(s.id)));
             boardStaff.forEach(s => uniqueStaff.add(s.id));
@@ -186,9 +189,11 @@
                 <div class="list-item-main">
                     <div class="list-item-badges">
                         <div class="list-item-status ${project.status.phase}">${escapeHtml(project.status.label)}</div>
-                        <div class="active-indicator-compact ${isActive ? 'on' : 'off'}" title="${isActive ? 'Active — AI spend enabled' : 'Inactive — AI spend paused'}">
-                            <span class="active-indicator-light"></span>
-                            <span class="active-indicator-label">${isActive ? 'ACTIVE' : 'INACTIVE'}</span>
+                        <div class="active-toggle compact ${isActive ? 'on' : 'off'}" title="${isActive ? 'Active — AI spend enabled' : 'Inactive — AI spend paused'}">
+                            <span class="toggle-track">
+                                <span class="toggle-thumb"></span>
+                            </span>
+                            <span class="toggle-label">${isActive ? 'ON' : 'OFF'}</span>
                         </div>
                     </div>
                     <h3 class="list-item-name">${escapeHtml(project.name)}</h3>
@@ -239,17 +244,19 @@
         if (project.domain) linksHtml.push(`<div class="detail-link-item"><span class="link-label">Domain:</span> <span class="link-value">${escapeHtml(project.domain)}</span></div>`);
         if (project.repoUrl) linksHtml.push(`<div class="detail-link-item"><span class="link-label">Repository:</span> <a href="${escapeHtml(project.repoUrl)}" class="link-value" target="_blank" rel="noopener">${escapeHtml(project.repo)}</a></div>`);
         if (project.demoUrl) linksHtml.push(`<div class="detail-link-item"><span class="link-label">Demo:</span> <a href="${escapeHtml(project.demoUrl)}" class="link-value" target="_blank" rel="noopener">View Demo</a></div>`);
-        const activeIndicatorDetail = `
-            <div class="active-indicator-detail ${isActive ? 'on' : 'off'}">
-                <span class="active-indicator-light"></span>
-                <span class="active-indicator-label">${isActive ? 'ACTIVE' : 'INACTIVE'}</span>
-                <span class="active-indicator-hint">${isActive ? 'AI spend enabled' : 'AI spend paused'}</span>
+        const activeToggleDetail = `
+            <div class="active-toggle detail ${isActive ? 'on' : 'off'}">
+                <span class="toggle-track">
+                    <span class="toggle-thumb"></span>
+                </span>
+                <span class="toggle-label">${isActive ? 'ON' : 'OFF'}</span>
+                <span class="toggle-hint">${isActive ? 'AI spend enabled' : 'AI spend paused'}</span>
             </div>`;
         return `
             <header class="project-detail-header ${isActive ? 'project-active' : 'project-inactive'}" style="--project-color: ${project.color}">
                 <div class="project-detail-badges">
                     <div class="project-detail-status ${project.status.phase}">${escapeHtml(project.status.label)}</div>
-                    ${activeIndicatorDetail}
+                    ${activeToggleDetail}
                 </div>
                 <h1 class="project-detail-name">${escapeHtml(project.name)}</h1>
                 <p class="project-detail-tagline">${escapeHtml(project.tagline)}</p>
