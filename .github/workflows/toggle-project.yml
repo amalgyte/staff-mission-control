@@ -1,0 +1,101 @@
+name: Toggle Project Active Status
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: 'Project ID (e.g. commons, pet-care, studio)'
+        required: true
+        type: string
+      active:
+        description: 'Set active status'
+        required: true
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: toggle-project
+  cancel-in-progress: false
+
+jobs:
+  toggle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Validate inputs
+        run: |
+          if [ -z "${{ inputs.project }}" ]; then
+            echo "Error: project input is required"
+            exit 1
+          fi
+          if [ "${{ inputs.active }}" != "true" ] && [ "${{ inputs.active }}" != "false" ]; then
+            echo "Error: active must be 'true' or 'false'"
+            exit 1
+          fi
+
+      - name: Toggle project active status
+        run: |
+          python3 << 'EOF'
+          import json
+          import sys
+          from datetime import datetime, timezone
+
+          project_id = "${{ inputs.project }}"
+          new_active = "${{ inputs.active }}" == "true"
+
+          data_path = "data/projects.json"
+
+          try:
+              with open(data_path, "r", encoding="utf-8") as f:
+                  data = json.load(f)
+          except (FileNotFoundError, json.JSONDecodeError) as e:
+              print(f"Error reading {data_path}: {e}")
+              sys.exit(1)
+
+          projects = data.get("projects", [])
+          project_found = False
+
+          for project in projects:
+              if project.get("id") == project_id:
+                  project["active"] = new_active
+                  project_found = True
+                  print(f"Set '{project_id}' active = {new_active}")
+                  break
+
+          if not project_found:
+              print(f"Error: Project '{project_id}' not found in {data_path}")
+              print(f"Available projects: {[p.get('id') for p in projects]}")
+              sys.exit(1)
+
+          data["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+          with open(data_path, "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+
+          print(f"Updated timestamp: {data['updated']}")
+
+          # Validate the output is valid JSON
+          with open(data_path, "r", encoding="utf-8") as f:
+              json.load(f)
+          print("JSON validation passed")
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/projects.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Toggle ${{ inputs.project }} active=${{ inputs.active }}"
+          git push origin main
