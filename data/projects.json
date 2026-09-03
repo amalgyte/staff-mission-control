@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T11:55:00+01:00",
+  "updated": "2026-09-03T14:15:00+01:00",
   "boardStaff": [
     { "id": "maeve", "name": "Maeve", "role": "Right-hand PA / advisor" },
     { "id": "nora", "name": "Nora", "role": "Journal" },
@@ -115,7 +115,7 @@
       },
       "status": {
         "phase": "ongoing",
-        "label": "Active Research",
+        "label": "Research",
         "progress": null,
         "summary": "Continuous research into YouTube/TikTok trends, shorts production, and realistic second-income opportunities."
       },
@@ -155,7 +155,7 @@
       },
       "status": {
         "phase": "ongoing",
-        "label": "Active",
+        "label": "Ongoing",
         "progress": null,
         "summary": "Journal, health, and psychologist notes now publishing on the public board. 2 Sep morning: Nora recovery-day journal; Rowan Health Mate (weight 218.6 lb, sleep 7h48, BP stale since 3 Jun); Julian light-day pacing; Maeve required list empty."
       },
